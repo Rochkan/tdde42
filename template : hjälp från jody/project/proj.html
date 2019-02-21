@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Project</title>
+        <link href="css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="js/projtemplate.js"></script>
+    </head>
+
+    <body>
+        <div id="buttonpanel">
+            <div id="toggleBtn" onclick="toggleButtons()">🐵</div>
+            <div id="buttons">
+                <button onclick='copyTemplate("content-template1", "container1")'>
+                    Add content-template1 to #container1
+                </button>
+                <button onclick='copyTemplate("content-template2", "container1")'>
+                    Add content-template2 to #container1
+                </button>
+                <button onclick='copyTemplate("paragraph1", "container1")'>
+                    Add paragraph1 to #container1
+                </button>
+                <button onclick='removeLast("container1")'>
+                    Remove last element of #container1
+                </button>
+
+                <button onclick='copyTemplate("content-template1", "container2")'>
+                    Add content-template1 to #container2
+                </button>
+                <button onclick='copyTemplate("content-template2", "container2")'>
+                    Add content-template2 to #container2
+                </button>
+                <button onclick='copyTemplate("paragraph1", "container2")'>
+                    Add paragraph1 to #container2
+                </button>
+                <button onclick='removeLast("container2")'>
+                    Remove last element of #container2
+                </button>
+
+                <button onclick='copyTemplate("content-template1", "container3")'>
+                    Add content-template1 to #container3
+                </button>
+                <button onclick='copyTemplate("content-template2", "container3")'>
+                    Add content-template2 to #container3
+                </button>
+                <button onclick='copyTemplate("paragraph1", "container3")'>
+                    Add paragraph1 to #container3
+                </button>
+                <button onclick='removeLast("container3")'>
+                    Remove last element of #container3
+                </button>
+            </div>
+        </div>
+        <div id="wrapper">
+            <div id="container1">
+            </div>
+            <div id="container2">
+            </div>
+            <div id="container3">
+            </div>
+        </div>
+        <div id="templates">
+            <div id="content-template1" class="class1 class2">
+                <div class="class3 class4">
+                    <img src="https://via.placeholder.com/400x100/eee/222?text=Bild+1">
+                    <p><strong>content-template1</strong></p>
+                </div>
+                <div class="class5 class6">
+                    <p>Page layout is the part of graphic design that deals in the arrangement of visual elements on a page. It generally involves organizational principles of composition to achieve specific communication objectives.</p>
+
+                    <p>The high-level page layout involves deciding on the overall arrangement of text and images, and possibly on the size or shape of the medium. It requires intelligence, sentience, and creativity, and is informed by culture, psychology, and what the document authors and editors wish to communicate and emphasize. Low-level pagination and typesetting are more mechanical processes. Given certain parameters - boundaries of text areas, the typeface, font size, and justification preference can be done in a straightforward way. Until desktop publishing became dominant, these processes were still done by people, but in modern publishing they are almost always automated. The result might be published as-is (as for a residential phone book interior) or might be tweaked by a graphic designer (as for a highly polished, expensive publication) it is very important as it allows you to read a Magazine.</p>
+                </div>
+            </div>
+
+            <div id="content-template2" class="class1 class2">
+                <div class="class3 class4">
+                    <p><strong>content-template2</strong></p>
+                </div>
+                <div class="class5 class6">
+                    <p>With manuscripts, all of the elements are added by hand, so the creator can determine the layout directly as they create the work, perhaps with an advance sketch as a guide.</p>
+
+                    <img src="https://via.placeholder.com/400x300/eee/222?text=Bild+2">
+
+                    <p>With ancient woodblock printing, all elements of the page were carved directly into wood, though later layout decisions might need to be made if the printing was transferred onto a larger work, such as a large piece of fabric, potentially with multiple block impressions.</p>
+                </div>
+            </div>
+
+            <p id="paragraph1" class="class7"><strong>Paragraph</strong>. Since the advent of personal computing, page layout skills have expanded to electronic media as well as print media. E-books, PDF documents, and static web pages mirror paper documents relatively closely, but computers can also add multimedia animation, and interactivity. Page layout for interactive media overlaps with interface design and user experience design; an interactive "page" is better known as a graphical user interface (GUI).</p>
+        </div>
+    </body>
+</html>
