@@ -1,0 +1,26 @@
+#templates { display: none; }
+
+#buttonpanel {
+  position: fixed;
+  display: flex;
+  align-items: start;
+  top: 16px;
+  left: 16px;
+  max-width: 50vw;
+  min-width: 16px;
+  min-height: 16px;
+  padding: 3px;
+  background: rgba(127,127,127,0.2);
+  border-radius: 5px;
+}
+
+#toggleBtn {
+  font-size: 16px;
+  margin: 1px;
+}
+
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

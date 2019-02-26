@@ -5,7 +5,7 @@
 	--ovrigt: #a1618c;
 	--historia: #2f879e;
 	--ekonomi: #c39423;
-	--text: Oswald;
+	--text: oswald;
 }
 
 body{
@@ -24,41 +24,18 @@ body{
 	border-bottom: 0.25vh solid var(--light);
 	grid-row-start: 1;
 	grid-row-end: 2;
-	position: relative;
-	display: inline-block;
 }
 
 #toggleBtn{
 	transition: linear 2s;
 }
 
-#buttonPanel{
-/*	grid-column-start:1;
-	grid-column-end:2;*/
-	display: 
-}
-
-
 #buttons{
 	display: none;
-	width: 100vw;
-	max-width: 767px;
-	background-color: blue;
 }
 
-.link{
-	border: 0.25vh solid var(--light);
-	width: 40vw;
-	height: 10vh;
-}
-
-.link img {
-	width:10vw;
-}
-
-.link a{
+#buttons a{
 	font-family: var(--text);
-	font-size: 10vw;
 }
 
 #logo{
@@ -66,52 +43,40 @@ body{
 	max-width: 150px;
 	margin: 0;
 	padding: 0;
-	/*grid-column-start:2;
-	grid-column-end:3;*/
-	place-self: center;
 }
 
 #container{
 	background-color: red;
+	margin: 0 auto;
 	width: 90%;
 	height: 100%;
-	padding-top: 2%;
-	margin: 0 auto;
 	grid-row-start: 2;
 	grid-row-end: 3;
-	display: grid;
-	grid-template-columns: 15% 15% 15% 15% 15% 15%;
-	grid-template-rows: 14% 14% 14% 14% 14% 14%;
-	grid-gap:2%;
-	
 }
 #dagens{
-	width: 100%;
+	width: 90%;
 	background-color: var(--light);
 	border-radius: 15px;
+	padding: 2vh 0;
 	font-family: var(--text);
-	grid-column-start: 1;
-	grid-column-end: 7;
-	grid-row-start: 1;
-	grid-row-end: 4;
 }
 
 #dagens h1{
 	text-align: center;
 	margin-bottom: 2vh;
+}
+
+#dagens h1{
 	font-size: 3em;
 }
 
 #random{
-	height: 50%;
+	width: 70%;
+	height: 10%;
 	background-color: var(--light);
 	border-radius: 15px;
 	font-family: var(--text);
 	text-align: center;
-	grid-column-start: 2;
-	grid-column-end: 6;
-	grid-row-start: 4;
-	grid-row-end: 5;
 }
 
 #random a{

@@ -1,0 +1,17 @@
+bakgrundsfärg/mörk: #
+ljus: #
+
+dagens: #f9f7af
+random: #f9c698
+
+natur:
+mat:
+historia:
+ekonomi: 
+
+
+
+Bilder som bulletsssss:
+
+https://stackoverflow.com/questions/21161569/html-list-with-different-images-as-bullets
+
