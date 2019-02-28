@@ -141,6 +141,7 @@ NATURSIDA
 	margin: 0 auto;
 	grid-row-start: 2;
 	grid-row-end: 3;
+	overflow: auto;
 }
 
 .collapsible {
