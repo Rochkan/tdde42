@@ -1,0 +1,52 @@
+#natursida{
+	width: 100%;
+	background-color: black;
+	margin: 0 auto;
+}
+
+.collapsible {
+  background-color: #f4f4f4;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+  width: 80%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-top: 2vh;
+  color: #69914b;
+  font-size: 7vw;
+  font-family: oswald;
+}
+
+.active {
+  background-color: #69914b;
+  color: #f4f4f4;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+} 
+
+.collapsible:hover {
+  background-color: #69914b;
+  color: #f4f4f4;
+}
+
+.naturfakta {
+  width: 80%;
+  display: none;
+  overflow: hidden;
+  margin-bottom: 3px;
+  background-color: #f4f4f4;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-transition: ease-in 2s;
+  font-family: oswald;
+  font-size: 4vw;
+}
+
+.naturfakta p{
+	padding: 4vw;
+	text-align: justify;
+}

@@ -125,3 +125,67 @@ body{
 	grid-row-end: 4;
 	border-top: 0.25vh solid var(--light);
 }
+
+
+
+/*
+NATURSIDA
+NATURSIDA
+NATURSIDA
+NATURSIDA
+NATURSIDA
+*/
+#natursida{
+	width: 100%;
+	background-color: yellow;
+	margin: 0 auto;
+}
+
+.collapsible {
+  	background-color: var(--light);
+  	padding: 15px;
+  	color: white;
+  	cursor: pointer;
+  	width: 80%;
+  	border: none;
+  	text-align: center;
+  	outline: none;
+  	font-size: 15px;
+  	border-radius: 20px;
+  	margin-top: 2vh;
+  	color: var(--natur);
+  	font-size: 7vw;
+  	font-family: var(--text);
+ 	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.active {
+  background-color: var(--natur);
+  color: var(--light);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+} 
+
+.collapsible:hover {
+  background-color: var(--natur);
+  color: var(--light);
+}
+
+.naturfakta {
+  width: 80%;
+  display: none;
+  overflow: hidden;
+  margin-bottom: 3px;
+  background-color: var(--light);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-transition: ease-in 2s;
+  font-family: var(--text);
+  font-size: 4vw;
+}
+
+.naturfakta p{
+	padding: 4vw;
+	text-align: justify;
+}

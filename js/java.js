@@ -23,3 +23,4 @@ function toggleButtons() {
     toggleButton.innerHTML = "<img src='images/menubar.svg' width='50px' style='transform:rotate(90deg)'>"
   }
 }
+
