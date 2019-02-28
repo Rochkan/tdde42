@@ -9,8 +9,8 @@
 }
 
 body{
- width:100%;
- min-width: 300px;
+ 	width:100%;
+ 	min-width: 300px;
 }
 
 #wrapper{
@@ -31,9 +31,9 @@ body{
 
 
 #toggleBtn{
- width: 10%;
- max-width: 50px;
- padding: 1%;
+ 	width: 10%;
+ 	max-width: 50px;
+ 	padding: 1%;
 	transition: linear 2s;
 }
 
@@ -102,25 +102,25 @@ body{
 }
 
 .rubrik{
- display:grid;
- grid-template-columns: 17vw auto;
- background-color: green;
- border-top-left-radius: 15px;
- border-top-right-radius: 15px;
- padding-bottom:1vh;
+ 	display:grid;
+ 	grid-template-columns: 17vw auto;
+ 	background-color: green;
+ 	border-top-left-radius: 15px;
+ 	border-top-right-radius: 15px;
+ 	padding-bottom:1vh;
 }
 
 .rubrik img{
- width:11vw;
- margin: 1vh 1vw 1vh 2vw;
- grid-column-start: 1;
+ 	width:11vw;
+ 	margin: 1vh 1vw 1vh 2vw;
+ 	grid-column-start: 1;
 	grid-column-end: 2;
 }
 
 #dagens h1{
-font-size: 13vw;
-grid-column-start: 2;
-grid-column-end: 3;
+	font-size: 13vw;
+	grid-column-start: 2;
+	grid-column-end: 3;
 }
 
 
@@ -161,7 +161,7 @@ NATURSIDA
 	width: 100%;
 	background-color: yellow;
 	margin: 0 auto;
- grid-row-start: 2;
+ 	grid-row-start: 2;
 	grid-row-end: 3;
 }
 
