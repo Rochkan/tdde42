@@ -17,10 +17,10 @@ function toggleButtons() {
   var toggleButton = document.getElementById("toggleBtn");
   if (buttons.style.display == "flex") {
     buttons.style.display = "none";
-    toggleButton.innerHTML = "<img src='images/menubar.svg' width='50px'>"
+    toggleButton.innerHTML = "<img src='images/menubar.svg'>"
   } else {
     buttons.style.display = "flex";
-    toggleButton.innerHTML = "<img src='images/menubar.svg' width='50px' style='transform:rotate(90deg)'>"
+    toggleButton.innerHTML = "<img src='images/menubar.svg' style='transform:rotate(90deg)'>"
   }
 }
 
