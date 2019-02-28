@@ -5,11 +5,11 @@ var i;
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var naturfakta = this.nextElementSibling;
-    if (naturfakta.style.display === "block") {
-      naturfakta.style.display = "none";
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
     } else {
-      naturfakta.style.display = "block";
+      content.style.display = "block";
     }
   });
 }
