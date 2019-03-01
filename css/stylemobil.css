@@ -36,20 +36,23 @@ body{
 #toggleBtn{
  	width: 10%;
  	max-width: 50px;
- 	padding: 1%;
+ 	padding: 5%;
 	transition: linear 2s;
+	position: absolute;
+	top: 0;
 }
 
 #buttonPanel{
 /*	grid-column-start:1;
 	grid-column-end:2;*/
-	display: 
+
 }
 
 
 #buttons{
 	display: none;
 	width: 100vw;
+	height: 30vh;
 	max-width: 767px;
 	background-color: blue;
 }
@@ -76,7 +79,9 @@ body{
 	padding: 0;
 	/*grid-column-start:2;
 	grid-column-end:3;*/
-	place-self: center;
+	position: relative;
+	margin: 0 auto;
+
 }
 
 #container{
