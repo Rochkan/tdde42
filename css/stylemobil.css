@@ -9,17 +9,19 @@
 }
 
 body{
- 	width:100%;
- 	min-width: 300px;
+	height: 100vh;
 }
 
 #wrapper{
-	height: 100vh;
+	height: 100%;
+	width: 100vw;
+	max-width: 767px;
 	background-color: var(--dark);
 	display: grid;
 	grid-template-columns: auto;
 	grid-template-rows: 10vh 85vh 5vh;
 	grid-gap: auto;
+	overflow: auto;
 }
 #menu{
 	border-bottom: 0.25vh solid var(--light);
@@ -27,6 +29,7 @@ body{
 	grid-row-end: 2;
 	position: relative;
 	display: inline-block;
+	background-color: red;
 }
 
 
@@ -77,7 +80,6 @@ body{
 }
 
 #container{
-	background-color: red;
 	width: 90%;
 	height: 100%;
 	padding-top: 2%;
@@ -121,6 +123,7 @@ body{
 	font-size: 13vw;
 	grid-column-start: 2;
 	grid-column-end: 3;
+	color: var(--light);
 }
 
 
@@ -134,18 +137,32 @@ body{
 	grid-column-end: 6;
 	grid-row-start: 4;
 	grid-row-end: 5;
+	display: flex;
+    align-items: center;
 }
+
 
 #random a{
 	margin: 0 auto;
 	font-size: 2em;
 	text-align: center;
+
+}
+
+#random a:hover {
+  	background-color: blue;
+}
+
+#random a:link {
+	color: silver;
+  	text-decoration: none;
 }
 
 #footer{
 	grid-row-start: 3;
 	grid-row-end: 4;
 	border-top: 0.25vh solid var(--light);
+	background-color: var(--dark);
 }
 
 
@@ -158,8 +175,7 @@ NATURSIDA
 NATURSIDA
 */
 #natursida{
-	width: 100%;
-	background-color: yellow;
+	width: 90%;
 	margin: 0 auto;
  	grid-row-start: 2;
 	grid-row-end: 3;
@@ -170,7 +186,7 @@ NATURSIDA
   	padding: 15px;
   	color: white;
   	cursor: pointer;
-  	width: 80%;
+  	width: 100%;
   	border: none;
   	text-align: center;
   	outline: none;
@@ -196,7 +212,7 @@ NATURSIDA
 }
 
 .naturfakta {
-  width: 80%;
+  width: 100%;
   display: none;
   overflow: hidden;
   margin-bottom: 3px;
