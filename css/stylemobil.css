@@ -3,8 +3,8 @@
 	--light: #f4f4f4;
 	--natur: #69914b;
 	--ovrigt: #a1618c;
-	--historia: #2f879e;
-	--ekonomi: #c39423;
+	--history: #2f879e;
+	--ekonomy: #c39423;
 	--text: Oswald;
 }
 
@@ -129,7 +129,7 @@ body{
 .rubrik{
  	display:grid;
  	grid-template-columns: 17vw auto;
- 	background-color: green;
+ 	background-color: var(--history);
  	border-top-left-radius: 15px;
  	border-top-right-radius: 15px;
  	padding-bottom:1vh;
