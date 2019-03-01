@@ -177,7 +177,7 @@ body{
 }
 
 #random a:link {
-	color: silver;
+   color: var(--dark);
   	text-decoration: none;
 }
 
