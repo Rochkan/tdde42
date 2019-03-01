@@ -10,6 +10,8 @@
 
 body{
 	height: 100vh;
+ min-width: 300px;
+ 
 }
 
 #wrapper{
@@ -22,6 +24,7 @@ body{
 	grid-template-rows: 10vh 85vh 5vh;
 	grid-gap: auto;
 	overflow: auto;
+ margin: 0 auto;
 }
 #menu{
 	border-bottom: 0.25vh solid var(--light);
@@ -149,6 +152,12 @@ body{
 	color: var(--light);
 }
 
+#dagens .txtBox {
+ max-height: 28vh;
+ overflow: auto;
+ margin:1vh 2vw 0 2vw;
+
+}
 
 #random{
 	height: 50%;
