@@ -29,7 +29,7 @@ body{
 	grid-row-end: 2;
 	position: relative;
 	display: inline-block;
-	background-color: red;
+	background-color: var(--dark);
 }
 
 
@@ -54,22 +54,40 @@ body{
 	width: 100vw;
 	height: 30vh;
 	max-width: 767px;
-	background-color: blue;
+	background-color: var(--dark);
+	border-bottom: 0.25vh solid var(--light);
+}
+
+#buttoncenter{
+	margin: 0 auto;
+	background-color: var(--dark);
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-between;	
 }
 
 .link{
 	border: 0.25vh solid var(--light);
 	width: 40vw;
-	height: 10vh;
+	height: 8vh;
+	background-color: var(--dark);
+	border-radius: 10vh;
+	display: flex;
+    align-items: center;
 }
 
 .link img {
-	width:10vw;
+	width:7vw;
 }
 
 .link a{
 	font-family: var(--text);
-	font-size: 10vw;
+	font-size: 7vw;
+	color: var(--light);
+	text-decoration: none;
 }
 
 #logo{
