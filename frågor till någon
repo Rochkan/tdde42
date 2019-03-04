@@ -4,3 +4,7 @@ JS i menyn funkar inte från natur.html
 
 max en expanderad? collapsible
 
+
+"Layouts support dynamic size of content components (e.g. amount of text, number of articles)"
+Är det ok om vi bara har en lägg till en artikel i denna sida? 
+hur hanterar vi (diven) om det finns massor med text kontra lite? 
