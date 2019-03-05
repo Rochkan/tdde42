@@ -41,7 +41,7 @@ body{
 #toggleBtn{
  	width: 10%;
  	max-width: 50px;
- 	padding: 3%;
+ 	padding: 2.5%;
 	transition: linear 2s;
 	position: absolute;
 	top: 0;
