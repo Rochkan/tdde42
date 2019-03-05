@@ -1,3 +1,4 @@
+@media screen and (max-width: 767px){
 :root {
 	--dark:#444f4f;
 	--light: #f4f4f4;
@@ -44,13 +45,6 @@ body{
 	position: absolute;
 	top: 0;
 }
-
-#buttonPanel{
-/*	grid-column-start:1;
-	grid-column-end:2;*/
-
-}
-
 
 #buttons{
 	display: none;
@@ -114,7 +108,7 @@ body{
 	grid-row-end: 3;
 	display: grid;
 	grid-template-columns: 15% 15% 15% 15% 15% 15%;
-	grid-template-rows: 14% 14% 14% 14% 14% 14%;
+	grid-template-rows: 14% 14% 14% 7% 14% 14%;
 	grid-gap:2%;
 	
 }
@@ -160,7 +154,7 @@ body{
 }
 
 #random{
-	height: 50%;
+	height: 100%;
 	background-color: var(--light);
 	border-radius: 15px;
 	font-family: var(--text);
@@ -190,14 +184,16 @@ body{
   	text-decoration: none;
 }
 
+#veckan{
+	display: none;
+}
+
 #footer{
 	grid-row-start: 3;
 	grid-row-end: 4;
 	border-top: 0.25vh solid var(--light);
 	background-color: var(--dark);
 }
-
-
 
 /*
 NATURSIDA
@@ -259,4 +255,5 @@ NATURSIDA
 .naturfakta p{
 	padding: 4vw;
 	text-align: justify;
+}
 }

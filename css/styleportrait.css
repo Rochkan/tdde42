@@ -1,7 +1,269 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
 
 :root {
-	--blabla: hotpink;
+	--dark:#444f4f;
+	--light: #f4f4f4;
+	--natur: #69914b;
+	--ovrigt: #a1618c;
+	--history: #2f879e;
+	--ekonomy: #c39423;
+	--text: Oswald;
 }
+
+body{
+	height: 100vh;
+ 	min-width: 768px;
+ 
+}
+
+#wrapper{
+	height: 100%;
+	width: 100vw;
+	max-width: 992px;
+	background-color: var(--dark);
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 10vh 85vh 5vh;
+	grid-gap: auto;
+	overflow: auto;
+ 	margin: 0 auto;
+}
+#menu{
+	border-bottom: 0.25vh solid var(--light);
+	grid-row-start: 1;
+	grid-row-end: 2;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	background-color: var(--dark);
+}
+
+#toggleBtn{
+ 	width: 10%;
+ 	max-width: 50px;
+ 	padding: 3%;
+	transition: linear 2s;
+	position: absolute;
+	top: 0;
+}
+
+#buttons{
+	display: none;
+	width: 100vw;
+	height: 35vh;
+	max-width: 992px;
+	background-color: var(--dark);
+	border-bottom: 0.25vh solid var(--light);
+}
+
+#buttoncenter{
+	margin: 0 auto;
+	background-color: var(--dark);
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-between;	
+}
+
+.link{
+	border: 0.25vh solid var(--light);
+	width: 40vw;
+	height: 8vh;
+	background-color: var(--dark);
+	border-radius: 10vh;
+	display: flex;
+    align-items: center;
+}
+
+.link img {
+	width:7vw;
+}
+
+.link a{
+	font-family: var(--text);
+	font-size: 7vw;
+	color: var(--light);
+	text-decoration: none;
+}
+
+#logo{
+	width: 11vw;
+	max-width: 150px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+#container{
+	width: 90%;
+	height: 100%;
+	padding-top: 2%;
+	margin: 0 auto;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	display: grid;
+	grid-template-columns: 15% 15% 15% 15% 15% 15%;
+	grid-template-rows: 14% 14% 14% 7% 14% 14%;
+	grid-gap:2%;
+	
+}
+#dagens{
+	width: 100%;
+	background-color: var(--light);
+	border-radius: 15px;
+	font-family: var(--text);
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.rubrik{
+ 	display:grid;
+ 	grid-template-columns: 17vw auto;
+ 	background-color: var(--history);
+ 	border-top-left-radius: 15px;
+ 	border-top-right-radius: 15px;
+ 	padding-bottom:1vh;
+}
+
+.rubrik img{
+ 	width:11vw;
+ 	margin: 1vh 1vw 1vh 2vw;
+ 	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+#dagens h1{
+	font-size: 13vw;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	color: var(--light);
+}
+
+#dagens .txtBox {
+ max-height: 28vh;
+ overflow: auto;
+ margin:1vh 2vw 0 2vw;
+
+}
+
+#random{
+	height: 100%;
+	background-color: var(--light);
+	border-radius: 15px;
+	font-family: var(--text);
+	text-align: center;
+	grid-column-start: 2;
+	grid-column-end: 6;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	display: flex;
+    align-items: center;
+}
+
+
+#random a{
+	margin: 0 auto;
+	font-size: 2em;
+	text-align: center;
+
+}
+
+#random a:hover {
+  	background-color: blue;
+}
+
+#random a:link {
+   color: var(--dark);
+  	text-decoration: none;
+}
+
+#veckan{
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	background-color: orange; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#footer{
+	grid-row-start: 3;
+	grid-row-end: 4;
+	border-top: 0.25vh solid var(--light);
+	background-color: var(--dark);
+}
+
+
+
+/*
+NATURSIDA
+NATURSIDA
+NATURSIDA
+NATURSIDA
+NATURSIDA
+*/
+#natursida{
+	width: 90%;
+	margin: 0 auto;
+ 	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.collapsible {
+  	background-color: var(--light);
+  	padding: 15px;
+  	color: white;
+  	cursor: pointer;
+  	width: 100%;
+  	border: none;
+  	text-align: center;
+  	outline: none;
+  	font-size: 15px;
+  	border-radius: 20px;
+  	margin-top: 2vh;
+  	color: var(--natur);
+  	font-size: 7vw;
+  	font-family: var(--text);
+
+}
+
+.active {
+  	background-color: var(--natur);
+  	color: var(--light);
+  	border-bottom-left-radius: 0px;
+  	border-bottom-right-radius: 0px;
+} 
+
+.collapsible:hover {
+  	background-color: var(--natur);
+  	color: var(--light);
+}
+
+.naturfakta {
+  	width: 100%;
+  	display: none;
+  	overflow: hidden;
+  	margin-bottom: 3px;
+  	background-color: var(--light);
+  	border-bottom-right-radius: 20px;
+  	border-bottom-left-radius: 20px;
+  	-webkit-transition: ease-in 2s;
+  	font-family: var(--text);
+  	font-size: 4vw;
+}
+
+.naturfakta p{
+	padding: 4vw;
+	text-align: justify;
+}
+
 
 }
