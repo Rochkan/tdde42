@@ -6,7 +6,7 @@
 	--natur: #69914b;
 	--ovrigt: #a1618c;
 	--history: #2f879e;
-	--ekonomy: #c39423;
+	--economy: #c39423;
 	--text: Oswald;
 }
 
@@ -194,6 +194,22 @@ body{
 	justify-content: space-between;
 }
 
+#oneday{
+	width: 25%;
+}
+
+#twodays{
+	width: 25%;
+}
+
+#threedays{
+	width: 25%;
+}
+
+#fourdays{
+	width: 25%;
+}
+
 #footer{
 	grid-row-start: 3;
 	grid-row-end: 4;
@@ -217,7 +233,7 @@ NATURSIDA
 	grid-row-end: 2;
 }
 
-.collapsible {
+.collapsiblenat{
   	background-color: var(--light);
   	padding: 15px;
   	color: white;
@@ -235,14 +251,13 @@ NATURSIDA
 
 }
 
-.active {
+.collapsblenat:active {
   	background-color: var(--natur);
   	color: var(--light);
-  	border-bottom-left-radius: 0px;
-  	border-bottom-right-radius: 0px;
+  	border-radius: 20px 20px 0px 0px;
 } 
 
-.collapsible:hover {
+.collapsiblenat:hover {
   	background-color: var(--natur);
   	color: var(--light);
 }
@@ -253,17 +268,178 @@ NATURSIDA
   	overflow: hidden;
   	margin-bottom: 3px;
   	background-color: var(--light);
-  	border-bottom-right-radius: 20px;
-  	border-bottom-left-radius: 20px;
+  	border-radius: 0px 0px 20px 20px;
   	-webkit-transition: ease-in 2s;
   	font-family: var(--text);
-  	font-size: 4vw;
 }
 
 .naturfakta p{
 	padding: 4vw;
 	text-align: justify;
+	font-size: 3vw;
 }
 
+
+/*
+ÖVRIGT
+ÖVRIGT
+ÖVRIGT
+ÖVRIGT
+*/
+
+.collapsibleovr:active{
+  	background-color: var(--ovrigt);
+  	color: var(--light);
+  	border-bottom-left-radius: 0px;
+  	border-bottom-right-radius: 0px;
+} 
+
+.collapsibleovr:hover{
+  	background-color: var(--ovrigt);
+  	color: var(--light);
+}
+
+.ovrigtfakta p{
+	padding: 4vw;
+	text-align: justify;
+	font-size: 3vw;
+}
+
+.ovrigtfakta {
+  	width: 100%;
+  	display: none;
+  	overflow: hidden;
+  	margin-bottom: 3px;
+  	background-color: var(--light);
+  	border-bottom-right-radius: 20px;
+  	border-bottom-left-radius: 20px;
+  	-webkit-transition: ease-in 2s;
+  	font-family: var(--text); 	
+}
+
+.collapsibleovr{
+  	background-color: var(--light);
+  	padding: 15px;
+  	color: white;
+  	cursor: pointer;
+  	width: 100%;
+  	border: none;
+  	text-align: center;
+  	outline: none;
+  	font-size: 15px;
+  	border-radius: 20px;
+  	margin-top: 2vh;
+  	color: var(--ovrigt);
+  	font-size: 7vw;
+  	font-family: var(--text);
+
+}
+
+/*
+Ekonomi
+Ekonomi
+Ekonomi
+Ekonomi
+*/ 
+.collapsibleeko:active{
+  	background-color: var(--economy);
+  	color: var(--light);
+  	border-bottom-left-radius: 0px;
+  	border-bottom-right-radius: 0px;
+} 
+
+.collapsibleeko:hover{
+  	background-color: var(--economy);
+  	color: var(--light);
+}
+
+.ekonomifakta p{
+	padding: 4vw;
+	text-align: justify;
+	font-size: 3vw;
+}
+
+.ekonomifakta {
+  	width: 100%;
+  	display: none;
+  	overflow: hidden;
+  	margin-bottom: 3px;
+  	background-color: var(--light);
+  	border-bottom-right-radius: 20px;
+  	border-bottom-left-radius: 20px;
+  	-webkit-transition: ease-in 2s;
+  	font-family: var(--text); 	
+}
+
+.collapsibleeko{
+  	background-color: var(--light);
+  	padding: 15px;
+  	color: white;
+  	cursor: pointer;
+  	width: 100%;
+  	border: none;
+  	text-align: center;
+  	outline: none;
+  	font-size: 15px;
+  	border-radius: 20px;
+  	margin-top: 2vh;
+  	color: var(--economy);
+  	font-size: 7vw;
+  	font-family: var(--text);
+
+}
+/*
+historia
+historia
+historia
+historia
+*/ 
+.collapsiblehis:active{
+  	background-color: var(--history);
+  	color: var(--light);
+  	border-bottom-left-radius: 0px;
+  	border-bottom-right-radius: 0px;
+} 
+
+.collapsiblehis:hover{
+  	background-color: var(--history);
+  	color: var(--light);
+}
+
+.historiafakta p{
+	padding: 4vw;
+	text-align: justify;
+	font-size: 3vw;
+}
+
+.historiafakta {
+  	width: 100%;
+  	display: none;
+  	overflow: hidden;
+  	margin-bottom: 3px;
+  	background-color: var(--light);
+  	border-bottom-right-radius: 20px;
+  	border-bottom-left-radius: 20px;
+  	-webkit-transition: ease-in 2s;
+  	font-family: var(--text); 	
+}
+
+.collapsiblehis{
+  	background-color: var(--light);
+  	padding: 15px;
+  	color: white;
+  	cursor: pointer;
+  	width: 100%;
+  	border: none;
+  	text-align: center;
+  	outline: none;
+  	font-size: 15px;
+  	border-radius: 20px;
+  	margin-top: 2vh;
+  	color: var(--history);
+  	font-size: 7vw;
+  	font-family: var(--text);
+
+}
 
 }

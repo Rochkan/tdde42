@@ -210,7 +210,7 @@ NATURSIDA
 	grid-row-end: 2;
 }
 
-.collapsible {
+.collapsiblenat {
   	background-color: var(--light);
   	padding: 15px;
   	color: white;
@@ -228,14 +228,14 @@ NATURSIDA
 
 }
 
-.active {
+.collapsiblenat:active {
   background-color: var(--natur);
   color: var(--light);
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 } 
 
-.collapsible:hover {
+.collapsiblenat:hover {
   background-color: var(--natur);
   color: var(--light);
 }
