@@ -228,11 +228,12 @@ NATURSIDA
 
 }
 
-.collapsiblenat:active {
+.collapsiblenat :active {
   background-color: var(--natur);
-  color: var(--light);
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  color: var(--natur);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  
 } 
 
 .collapsiblenat:hover {
