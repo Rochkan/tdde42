@@ -74,11 +74,13 @@ body{
 	background-color: var(--dark);
 	border-radius: 10vh;
 	display: flex;
-    align-items: center;
+ align-items: center;
+ justify-content: center;	
 }
 
 .link img {
 	width:7vw;
+ margin-right: 1.5vw;
 }
 
 .link a{
