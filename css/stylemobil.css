@@ -41,7 +41,7 @@ body{
 #toggleBtn{
  	width: 10%;
  	max-width: 50px;
- 	padding: 5%;
+ 	padding: 2.5%;
 	transition: linear 2s;
 	position: absolute;
 	top: 0;
@@ -79,7 +79,7 @@ body{
 }
 
 .link img {
-	width:7vw;
+	width: 7vw;
  margin-right: 1.5vw;
 }
 
@@ -92,7 +92,7 @@ body{
 
 #logo{
 	width: 18vw;
-	max-width: 150px;
+	max-width: 60px;
 	margin: 0;
 	padding: 0;
 	/*grid-column-start:2;
