@@ -188,27 +188,44 @@ body{
 	grid-column-end: 7;
 	grid-row-start: 5;
 	grid-row-end: 7;
-	background-color: orange; 
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 #oneday{
-	width: 25%;
+	width: 45%;
+}
+
+#oneday button{
+	font-size: 2em;
 }
 
 #twodays{
-	width: 25%;
+	width: 45%;
+}
+
+#twodays button{
+	font-size: 2em;
 }
 
 #threedays{
-	width: 25%;
+	width: 45%;
 }
 
-#fourdays{
-	width: 25%;
+#threedays button{
+	font-size: 2em;
 }
+
+
+#fourdays{
+	width: 45%;
+}
+
+#fourdays button{
+	font-size: 2em;
+}
+
 
 #footer{
 	grid-row-start: 3;
