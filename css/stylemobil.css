@@ -27,6 +27,11 @@ body{
 	overflow: auto;
  margin: 0 auto;
 }
+ 
+ #menubar{
+  display: none;
+ } 
+ 
 #menu{
 	border-bottom: 0.25vh solid var(--light);
 	grid-row-start: 1;
