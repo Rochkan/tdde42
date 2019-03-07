@@ -74,8 +74,8 @@ body{
 	background-color: var(--dark);
 	border-radius: 10vh;
 	display: flex;
- align-items: center;
- justify-content: center;	
+ 	align-items: center;
+ 	justify-content: center;	
 }
 
 .link img {
@@ -97,8 +97,9 @@ body{
 	padding: 0;
 	position: relative;
 	margin: 0 auto;
-
 }
+
+
 
 #container{
 	width: 90%;
