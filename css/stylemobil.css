@@ -6,7 +6,8 @@
 	--ovrigt: #a1618c;
 	--history: #2f879e;
 	--ekonomy: #c39423;
-	--text: Oswald;
+ --random: #e0b8b8;
+ --text: Oswald;
 }
 
 body{
@@ -163,8 +164,9 @@ body{
 
 #random{
 	height: 100%;
-	background-color: var(--light);
-	border-radius: 15px;
+	background-color: var(--dark);
+ border-radius: 15px;
+ border: 0.25vh solid var(--light);
 	font-family: var(--text);
 	text-align: center;
 	grid-column-start: 2;
@@ -172,7 +174,7 @@ body{
 	grid-row-start: 4;
 	grid-row-end: 5;
 	display: flex;
-    align-items: center;
+ align-items: center;
 }
 
 
@@ -188,7 +190,7 @@ body{
 }
 
 #random a:link {
-   color: var(--dark);
+   color: var(--light);
   	text-decoration: none;
 }
 
@@ -197,10 +199,18 @@ body{
 }
 
 #footer{
-	grid-row-start: 3;
-	grid-row-end: 4;
-	border-top: 0.25vh solid var(--light);
-	background-color: var(--dark);
+ position:fixed;
+ bottom:0;
+ width:100vw;
+ height: 5vh;
+ z-index: 3;
+ background-color:  var(--dark);
+ border-top:0.25vh solid var(--light);
+ color: var(--light);
+ text-align: center;
+ padding-top: 2.5vh;
+ font-size: 2vh;
+ font-family: var(--text);
 }
 
 /*
@@ -213,7 +223,7 @@ NATURSIDA
 #natursida{
 	width: 90%;
 	margin: 0 auto;
- 	grid-row-start: 1;
+ grid-row-start: 1;
 	grid-row-end: 2;
 }
 
@@ -235,7 +245,7 @@ NATURSIDA
 
 }
 
-.collapsiblenat :active {
+.collapsiblenat:active {
   background-color: var(--natur);
   color: var(--natur);
   border-bottom-right-radius: 20px;

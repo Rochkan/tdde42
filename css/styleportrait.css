@@ -1,8 +1,4 @@
 
---with_to_heigh_ratio: 2; 
-
-
-with: cacl(vh * --with_to_height_ratio); 
 
 
 
@@ -34,7 +30,8 @@ body{
 	grid-template-rows: 10vh 85vh 5vh;
 	grid-gap: auto;
 	overflow: auto;
- 	margin: 0 auto;
+ margin: 0 auto;
+ padding-bottom: 30vh;
  	z-index: 0;
 }
 #menu{
@@ -172,8 +169,10 @@ body{
 
 #random{
 	height: 100%;
-	background-color: var(--light);
-	border-radius: 15px;
+	background-color: var(--dark);
+ color: var(--light);
+	border:0.25vh solid var(--light); 
+ border-radius: 15px;
 	font-family: var(--text);
 	text-align: center;
 	grid-column-start: 2;
@@ -181,23 +180,19 @@ body{
 	grid-row-start: 4;
 	grid-row-end: 5;
 	display: flex;
-    align-items: center;
+   align-items: center;
 }
 
 
 #random a{
 	margin: 0 auto;
 	font-size: 2em;
-	text-align: center;
 
 }
 
-#random a:hover {
-  	background-color: blue;
-}
 
 #random a:link {
-   color: var(--dark);
+   color: var(--light);
   	text-decoration: none;
 }
 
@@ -272,7 +267,7 @@ NATURSIDA
 #natursida{
 	width: 90%;
 	margin: 0 auto;
- 	grid-row-start: 1;
+ grid-row-start: 1;
 	grid-row-end: 2;
 }
 
@@ -309,6 +304,7 @@ NATURSIDA
   	width: 100%;
   	display: none;
   	overflow: hidden;
+   height: 20vh;
   	margin-bottom: 3px;
   	background-color: var(--light);
   	border-radius: 0px 0px 20px 20px;
@@ -320,6 +316,8 @@ NATURSIDA
 	padding: 4vw;
 	text-align: justify;
 	font-size: 3vw;
+ max-height: 16vh;
+ overflow: auto;
 }
 
 
@@ -346,12 +344,15 @@ NATURSIDA
 	padding: 4vw;
 	text-align: justify;
 	font-size: 3vw;
+ max-height: 16vh;
+ overflow: auto;
 }
 
 .ovrigtfakta {
   	width: 100%;
   	display: none;
   	overflow: hidden;
+   height: 20vh;
   	margin-bottom: 3px;
   	background-color: var(--light);
   	border-bottom-right-radius: 20px;
@@ -400,11 +401,14 @@ Ekonomi
 	padding: 4vw;
 	text-align: justify;
 	font-size: 3vw;
+ max-height: 16vh;
+ overflow: auto;
 }
 
 .ekonomifakta {
   	width: 100%;
   	display: none;
+  	height:20vh;
   	overflow: hidden;
   	margin-bottom: 3px;
   	background-color: var(--light);
@@ -453,12 +457,15 @@ historia
 	padding: 4vw;
 	text-align: justify;
 	font-size: 3vw;
+  max-height: 16vh;
+ overflow: auto;
 }
 
 .historiafakta {
   	width: 100%;
   	display: none;
   	overflow: hidden;
+   height: 20vh;
   	margin-bottom: 3px;
   	background-color: var(--light);
   	border-bottom-right-radius: 20px;

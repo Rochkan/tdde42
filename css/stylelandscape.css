@@ -27,6 +27,8 @@ body{
 	grid-gap: auto;
 	overflow: auto;
  	margin: 0 auto;
+ padding-bottom: 30vh;
+ z-index: 0;
 }
 #menu{
 	display: none;
@@ -216,10 +218,18 @@ body{
 
 
 #footer{
-	grid-row-start: 3;
-	grid-row-end: 4;
-	border-top: 0.25vh solid var(--light);
-	background-color: var(--dark);
+ position:fixed;
+ bottom:0;
+ width:100vw;
+ height: 5vh;
+ z-index: 3;
+ background-color:  var(--dark);
+ border-top:0.25vh solid var(--light);
+ color: var(--light);
+ text-align: center;
+ padding-top: 2.5vh;
+ font-size: 2vh;
+ font-family: var(--text);
 }
 
 
@@ -269,6 +279,7 @@ NATURSIDA
 
 .naturfakta {
   	width: 100%;
+   height: 20vh;
   	display: none;
   	overflow: hidden;
   	margin-bottom: 3px;
@@ -276,12 +287,15 @@ NATURSIDA
   	border-radius: 0px 0px 20px 20px;
   	-webkit-transition: ease-in 2s;
   	font-family: var(--text);
+ 
 }
 
 .naturfakta p{
 	padding: 4vw;
 	text-align: justify;
 	font-size: 3vw;
+ max-height: 16vh;
+ overflow: auto;
 }
 
 
@@ -308,12 +322,15 @@ NATURSIDA
 	padding: 4vw;
 	text-align: justify;
 	font-size: 3vw;
+ max-height: 16vh;
+ overflow: auto;
 }
 
 .ovrigtfakta {
   	width: 100%;
   	display: none;
   	overflow: hidden;
+   height: 20vh;
   	margin-bottom: 3px;
   	background-color: var(--light);
   	border-bottom-right-radius: 20px;
@@ -362,11 +379,14 @@ Ekonomi
 	padding: 4vw;
 	text-align: justify;
 	font-size: 3vw;
+ max-height: 16vh;
+ overflow: auto;
 }
 
 .ekonomifakta {
   	width: 100%;
   	display: none;
+   height: 20vh;
   	overflow: hidden;
   	margin-bottom: 3px;
   	background-color: var(--light);
@@ -415,11 +435,14 @@ historia
 	padding: 4vw;
 	text-align: justify;
 	font-size: 3vw;
+ max-height: 16vh;
+ overflow: auto;
 }
 
 .historiafakta {
   	width: 100%;
   	display: none;
+   height: 20vh;
   	overflow: hidden;
   	margin-bottom: 3px;
   	background-color: var(--light);

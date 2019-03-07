@@ -2,7 +2,8 @@ bakgrundsfärg/mörk: #
 ljus: #
 
 dagens: #f9f7af
-random: #f9c698
+random: #e0b8b8
+
 
 natur:
 mat:
