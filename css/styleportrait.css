@@ -1,3 +1,11 @@
+
+--with_to_heigh_ratio: 2; 
+
+
+with: cacl(vh * --with_to_height_ratio); 
+
+
+
 @media screen and (min-width: 768px) and (max-width: 992px){
 
 :root {
@@ -271,10 +279,10 @@ NATURSIDA
 
 }
 
-.collapsblenat:active {
+.collapsiblenat:active {
   	background-color: var(--natur);
   	color: var(--light);
-  	border-radius: 20px 20px 0px 0px;
+  	border-radius: 20px 20px 0px 0px; 
 } 
 
 .collapsiblenat:hover {
