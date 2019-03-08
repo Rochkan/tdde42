@@ -22,7 +22,7 @@ body{
 	max-width: 767px;
 	background-color: var(--dark);
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: 100%;
 	grid-template-rows: 10vh 85vh 5vh;
 	grid-gap: auto;
 	overflow: auto;
@@ -37,6 +37,8 @@ body{
 	border-bottom: 0.25vh solid var(--light);
 	grid-row-start: 1;
 	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
 	position: relative;
 	display: inline-block;
 	background-color: var(--dark);
@@ -165,8 +167,8 @@ body{
 #random{
 	height: 100%;
 	background-color: var(--dark);
- border-radius: 15px;
- border: 0.25vh solid var(--light);
+ 	border-radius: 15px;
+ 	border: 0.25vh solid var(--light);
 	font-family: var(--text);
 	text-align: center;
 	grid-column-start: 2;
@@ -174,7 +176,7 @@ body{
 	grid-row-start: 4;
 	grid-row-end: 5;
 	display: flex;
- align-items: center;
+ 	align-items: center;
 }
 
 
@@ -185,13 +187,14 @@ body{
 
 }
 
-#random a:hover {
-  	background-color: blue;
+#random:hover {
+  	background-color: var(--light);
+  	color: var(--dark);
 }
 
-#random a:link {
-   color: var(--light);
+#random a:link{
   	text-decoration: none;
+  	color: var(--light);
 }
 
 #veckan{
@@ -220,14 +223,22 @@ NATURSIDA
 NATURSIDA
 NATURSIDA
 */
+#tabort{
+	margin: 0 auto;
+	width: 50%;
+	background-color: red;
+}
+
 #natursida{
 	width: 90%;
 	margin: 0 auto;
- grid-row-start: 1;
-	grid-row-end: 2;
+ 	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start:1;
+	grid-column-end:2;
 }
 
-.collapsiblenat {
+#collapsiblenat {
   	background-color: var(--light);
   	padding: 15px;
   	color: white;
@@ -245,7 +256,7 @@ NATURSIDA
 
 }
 
-.collapsiblenat:active {
+#collapsiblenat:active {
   background-color: var(--natur);
   color: var(--natur);
   border-bottom-right-radius: 20px;
@@ -253,12 +264,12 @@ NATURSIDA
   
 } 
 
-.collapsiblenat:hover {
+#collapsiblenat:hover {
   background-color: var(--natur);
   color: var(--light);
 }
 
-.naturfakta {
+#naturfakta {
   width: 100%;
   display: none;
   overflow: hidden;
@@ -271,7 +282,7 @@ NATURSIDA
   font-size: 4vw;
 }
 
-.naturfakta p{
+#naturfakta p{
 	padding: 4vw;
 	text-align: justify;
 }

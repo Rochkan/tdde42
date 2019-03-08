@@ -26,7 +26,7 @@ body{
 	max-width: 992px;
 	background-color: var(--dark);
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: 100%;
 	grid-template-rows: 10vh 85vh 5vh;
 	grid-gap: auto;
 	overflow: auto;
