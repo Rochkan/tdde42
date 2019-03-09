@@ -155,7 +155,17 @@ body{
 
  #more{
   display: none;
- } 
+ }
+ 
+ #myBtn{
+ background-color: var(--light);
+ border: 0.25vh solid var(--dark);
+	border-radius: 15px; 
+ font-family: var(--text);
+ padding:0.5vw 1vw;
+ margin-top: 1vh;
+ 
+ }
  
 #random{
 
