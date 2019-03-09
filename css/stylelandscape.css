@@ -187,10 +187,10 @@ body{
 }
 
 #veckan{
-	grid-column-start: 1;
-	grid-column-end: 7;
+	grid-column-start: 2;
+	grid-column-end: 6;
 	grid-row-start: 5;
-	grid-row-end: 7;
+	grid-row-end: 5;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
