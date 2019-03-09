@@ -5,159 +5,180 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
 
 :root {
-	--dark:#444f4f;
-	--light: #f4f4f4;
-	--natur: #69914b;
-	--ovrigt: #a1618c;
-	--history: #2f879e;
-	--economy: #c39423;
-	--text: Oswald;
+  --dark:#444f4f;
+  --light: #f4f4f4;
+  --natur: #69914b;
+  --ovrigt: #a1618c;
+  --history: #2f879e;
+  --economy: #c39423;
+  --text: Oswald;
 }
 
 body{
-	height: 100vh;
- 	min-width: 768px;
+  height: 100vh;
+  min-width: 768px;
  
 }
 
 #wrapper{
-	height: 100%;
-	width: 100vw;
-	max-width: 992px;
-	background-color: var(--dark);
-	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: 10vh 85vh 5vh;
-	grid-gap: auto;
-	overflow: auto;
+  height: 100%;
+  width: 100vw;
+  max-width: 992px;
+  background-color: var(--dark);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 12vh 78vh 10vh;
+  grid-gap: auto;
+  overflow: auto;
  margin: 0 auto;
  padding-bottom: 30vh;
- 	z-index: 0;
-}
-#menu{
-	border-bottom: 0.25vh solid var(--light);
-	grid-row-start: 1;
-	grid-row-end: 2;
-	width: 100%;
-	position: relative;
-	display: inline-block;
-	background-color: var(--dark);
-  z-index: 4;
-}
- #menubar{
-  display: none;
- }
- 
-#toggleBtn{
- 	width: 10%;
- 	max-width: 50px;
- 	padding: 2.5%;
-	transition: linear 2s;
-	position: absolute;
-	top: 0;
+  z-index: 0;
 }
 
+ 
+#mb{
+ width: 100vw;
+  border-bottom: 0.25vh solid var(--light);
+  background-color: var(--dark);
+  grid-row-start: 1;
+   grid-row-end: 2;
+ }
+ 
+ #menubar{
+  display: none;
+ } 
+
+#menu{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+}
+
+ #buttonpanel{
+  width: 8vw;
+  /*margin-left: 5vw;*/
+  padding-top: 2vh;
+ }
+
+
+
 #buttons{
-	display: none;
-	width: 100vw;
-	height: 35vh;
-	max-width: 992px;
-	background-color: var(--dark);
-	border-bottom: 0.25vh solid var(--light);
+  display: none;
+  width: 100vw;
+  height: 30vh;
+  max-width: 767px;
+  background-color: var(--dark);
+  border-bottom: 0.25vh solid var(--light);
 
 }
 
 #buttoncenter{
-	margin: 0 auto;
-	background-color: var(--dark);
-	width: 90%;
-	height: 90%;
-	display: flex;
-	flex-wrap: wrap;
-	align-content: space-around;
-	justify-content: space-between;	
+  
+  background-color: var(--dark);
+  border-bottom: 0.25vh solid var(--light);
+  width: 100%;
+ position: fixed;
+ left:0;
+  height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+ align-content: space-around;
+ z-index: 4;
 }
 
 .link{
-	border: 0.25vh solid var(--light);
-	width: 40vw;
-	height: 35%;
-	background-color: var(--dark);
-	border-radius: 10vh;
-	display: flex;
- 	align-items: center;
- 	justify-content: center;	
+  border: 0.25vh solid var(--light);
+  width: 40vw;
+  height: 8vh;
+  background-color: var(--dark);
+  border-radius: 10vh;
+  display: flex;
+ align-items: center;
+ justify-content: center; 
 }
 
 .link img {
-	width:7vw;
+  width: 7vw;
  margin-right: 1.5vw;
 }
 
 .link a{
-	font-family: var(--text);
-	font-size: 7vw;
-	color: var(--light);
-	text-decoration: none;
+  font-family: var(--text);
+  font-size: 7vw;
+  color: var(--light);
+  text-decoration: none;
 }
 
 #logo{
-	width: 11vw;
-	max-width: 150px;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	margin: 0 auto;
+  width: 18vw;
+  max-width: 100px;
+  margin: 0;
+  padding-top: 2vh;
+  /*grid-column-start:2;
+  grid-column-end:3;*/
+
+
 }
 
+ #easter img{
+ width: 18vw;
+  max-width: 60px;
+  margin: 0;
+  padding-top: 2vh;
+ visibility: hidden;
+ }
 
 
 #container{
-	width: 90%;
-	height: 100%;
-	padding-top: 2%;
-	margin: 0 auto;
-	grid-row-start: 2;
-	grid-row-end: 3;
-	display: grid;
-	grid-template-columns: 15% 15% 15% 15% 15% 15%;
-	grid-template-rows: 14% 14% 14% 7% 14% 14%;
-	grid-gap:2%;
+  width: 90%;
+  height: 100%;
+  padding-top: 2%;
+  margin: 0 auto;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  grid-template-rows: 14% 14% 14% 7% 14% 14%;
+  grid-gap:2%;
  
 
 }
 #dagens{
-	width: 100%;
-	background-color: var(--light);
-	border-radius: 15px;
-	font-family: var(--text);
-	grid-column-start: 1;
-	grid-column-end: 7;
-	grid-row-start: 1;
-	grid-row-end: 4;
+  width: 100%;
+  background-color: var(--light);
+  border-radius: 15px;
+  font-family: var(--text);
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
 }
 
 .rubrik{
- 	display:grid;
- 	grid-template-columns: 17vw auto;
- 	background-color: var(--history);
- 	border-top-left-radius: 15px;
- 	border-top-right-radius: 15px;
- 	padding-bottom:1vh;
+  display:grid;
+  grid-template-columns: 17vw auto;
+  background-color: var(--history);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-bottom:1vh;
 }
 
 .rubrik img{
- 	width:11vw;
- 	margin: 1vh 1vw 1vh 2vw;
- 	grid-column-start: 1;
-	grid-column-end: 2;
+  width:11vw;
+  margin: 1vh 1vw 1vh 2vw;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 #dagens h1{
-	font-size: 13vw;
-	grid-column-start: 2;
-	grid-column-end: 3;
-	color: var(--light);
+  font-size: 13vw;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: var(--light);
 }
 
 #dagens .txtBox {
@@ -168,75 +189,75 @@ body{
 }
 
 #random{
-	height: 100%;
-	background-color: var(--dark);
+  height: 100%;
+  background-color: var(--dark);
  color: var(--light);
-	border:0.25vh solid var(--light); 
+  border:0.25vh solid var(--light); 
  border-radius: 15px;
-	font-family: var(--text);
-	text-align: center;
-	grid-column-start: 2;
-	grid-column-end: 6;
-	grid-row-start: 4;
-	grid-row-end: 5;
-	display: flex;
+  font-family: var(--text);
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: flex;
    align-items: center;
 }
 
 
 #random a{
-	margin: 0 auto;
-	font-size: 2em;
+  margin: 0 auto;
+  font-size: 2em;
 
 }
 
 
 #random a:link {
    color: var(--light);
-  	text-decoration: none;
+    text-decoration: none;
 }
 
 #veckan{
-	grid-column-start: 1;
-	grid-column-end: 7;
-	grid-row-start: 5;
-	grid-row-end: 7;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 #oneday{
-	width: 45%;
+  width: 45%;
 }
 
 #oneday button{
-	font-size: 2em;
+  font-size: 2em;
 }
 
 #twodays{
-	width: 45%;
+  width: 45%;
 }
 
 #twodays button{
-	font-size: 2em;
+  font-size: 2em;
 }
 
 #threedays{
-	width: 45%;
+  width: 45%;
 }
 
 #threedays button{
-	font-size: 2em;
+  font-size: 2em;
 }
 
 
 #fourdays{
-	width: 45%;
+  width: 45%;
 }
 
 #fourdays button{
-	font-size: 2em;
+  font-size: 2em;
 }
 
 
@@ -264,58 +285,113 @@ NATURSIDA
 NATURSIDA
 NATURSIDA
 */
+#containernatur{
+  width: 90%;
+  height: 100%;
+  padding-top: 2%;
+  margin: 0 auto;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 90%;
+  grid-gap:2%;
+}
+
+#plusminus{
+  display:flex;
+  justify-content: center;
+  height: 100%;
+  background-color: var(--dark);
+}
+
+#plusminus img{
+  width: 30%;
+  margin: 3vw;
+}
+
+#fakta{
+  margin-top: 0.5vh;
+  border-radius: 20px;
+  padding: 1.5vh;
+  width: 40vw;
+}
+
+#fakta h1{
+  color: var(--light);
+  background-color: var(--natur);
+  text-align: center;
+  padding: 1.5vh;
+  font-family: var(--text);
+  font-size: 7vh;
+  border-radius: 20px 20px 0px 0px;
+}
+
+#fakta p{
+  border-radius: 0px 0px 20px 20px;
+  background-color: var(--light);
+  padding: 1.5vh;
+  height: 15vh;
+  overflow: auto;
+
+}
+
+#doldfakta{
+  display:none;
+}
+
 #natursida{
-	width: 90%;
-	margin: 0 auto;
- grid-row-start: 1;
-	grid-row-end: 2;
+  width: 100%;
+  grid-row-start: 2;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .collapsiblenat{
-  	background-color: var(--light);
-  	padding: 15px;
-  	color: white;
-  	cursor: pointer;
-  	width: 100%;
-  	border: none;
-  	text-align: center;
-  	outline: none;
-  	font-size: 15px;
-  	border-radius: 20px;
-  	margin-top: 2vh;
-  	color: var(--natur);
-  	font-size: 7vw;
-  	font-family: var(--text);
+    background-color: var(--light);
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 2vh;
+    color: var(--natur);
+    font-size: 7vw;
+    font-family: var(--text);
 
 }
 
 .collapsiblenat:active {
-  	background-color: var(--natur);
-  	color: var(--light);
-  	border-radius: 20px 20px 0px 0px; 
+    background-color: var(--natur);
+    color: var(--light);
+    border-radius: 20px 20px 0px 0px; 
 } 
 
 .collapsiblenat:hover {
-  	background-color: var(--natur);
-  	color: var(--light);
+    background-color: var(--natur);
+    color: var(--light);
 }
 
 .naturfakta {
-  	width: 100%;
-  	display: none;
-  	overflow: hidden;
+    width: 100%;
+    display: none;
+    overflow: hidden;
    height: 20vh;
-  	margin-bottom: 3px;
-  	background-color: var(--light);
-  	border-radius: 0px 0px 20px 20px;
-  	-webkit-transition: ease-in 2s;
-  	font-family: var(--text);
+    margin-bottom: 3px;
+    background-color: var(--light);
+    border-radius: 0px 0px 20px 20px;
+    -webkit-transition: ease-in 2s;
+    font-family: var(--text);
 }
 
 .naturfakta p{
-	padding: 4vw;
-	text-align: justify;
-	font-size: 3vw;
+  padding: 4vw;
+  text-align: justify;
+  font-size: 3vw;
  max-height: 16vh;
  overflow: auto;
 }
@@ -329,53 +405,53 @@ NATURSIDA
 */
 
 .collapsibleovr:active{
-  	background-color: var(--ovrigt);
-  	color: var(--light);
-  	border-bottom-left-radius: 0px;
-  	border-bottom-right-radius: 0px;
+    background-color: var(--ovrigt);
+    color: var(--light);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 } 
 
 .collapsibleovr:hover{
-  	background-color: var(--ovrigt);
-  	color: var(--light);
+    background-color: var(--ovrigt);
+    color: var(--light);
 }
 
 .ovrigtfakta p{
-	padding: 4vw;
-	text-align: justify;
-	font-size: 3vw;
+  padding: 4vw;
+  text-align: justify;
+  font-size: 3vw;
  max-height: 16vh;
  overflow: auto;
 }
 
 .ovrigtfakta {
-  	width: 100%;
-  	display: none;
-  	overflow: hidden;
+    width: 100%;
+    display: none;
+    overflow: hidden;
    height: 20vh;
-  	margin-bottom: 3px;
-  	background-color: var(--light);
-  	border-bottom-right-radius: 20px;
-  	border-bottom-left-radius: 20px;
-  	-webkit-transition: ease-in 2s;
-  	font-family: var(--text); 	
+    margin-bottom: 3px;
+    background-color: var(--light);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    -webkit-transition: ease-in 2s;
+    font-family: var(--text);   
 }
 
 .collapsibleovr{
-  	background-color: var(--light);
-  	padding: 15px;
-  	color: white;
-  	cursor: pointer;
-  	width: 100%;
-  	border: none;
-  	text-align: center;
-  	outline: none;
-  	font-size: 15px;
-  	border-radius: 20px;
-  	margin-top: 2vh;
-  	color: var(--ovrigt);
-  	font-size: 7vw;
-  	font-family: var(--text);
+    background-color: var(--light);
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 2vh;
+    color: var(--ovrigt);
+    font-size: 7vw;
+    font-family: var(--text);
 
 }
 
@@ -386,53 +462,53 @@ Ekonomi
 Ekonomi
 */ 
 .collapsibleeko:active{
-  	background-color: var(--economy);
-  	color: var(--light);
-  	border-bottom-left-radius: 0px;
-  	border-bottom-right-radius: 0px;
+    background-color: var(--economy);
+    color: var(--light);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 } 
 
 .collapsibleeko:hover{
-  	background-color: var(--economy);
-  	color: var(--light);
+    background-color: var(--economy);
+    color: var(--light);
 }
 
 .ekonomifakta p{
-	padding: 4vw;
-	text-align: justify;
-	font-size: 3vw;
+  padding: 4vw;
+  text-align: justify;
+  font-size: 3vw;
  max-height: 16vh;
  overflow: auto;
 }
 
 .ekonomifakta {
-  	width: 100%;
-  	display: none;
-  	height:20vh;
-  	overflow: hidden;
-  	margin-bottom: 3px;
-  	background-color: var(--light);
-  	border-bottom-right-radius: 20px;
-  	border-bottom-left-radius: 20px;
-  	-webkit-transition: ease-in 2s;
-  	font-family: var(--text); 	
+    width: 100%;
+    display: none;
+    height:20vh;
+    overflow: hidden;
+    margin-bottom: 3px;
+    background-color: var(--light);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    -webkit-transition: ease-in 2s;
+    font-family: var(--text);   
 }
 
 .collapsibleeko{
-  	background-color: var(--light);
-  	padding: 15px;
-  	color: white;
-  	cursor: pointer;
-  	width: 100%;
-  	border: none;
-  	text-align: center;
-  	outline: none;
-  	font-size: 15px;
-  	border-radius: 20px;
-  	margin-top: 2vh;
-  	color: var(--economy);
-  	font-size: 7vw;
-  	font-family: var(--text);
+    background-color: var(--light);
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 2vh;
+    color: var(--economy);
+    font-size: 7vw;
+    font-family: var(--text);
 
 }
 /*
@@ -442,53 +518,53 @@ historia
 historia
 */ 
 .collapsiblehis:active{
-  	background-color: var(--history);
-  	color: var(--light);
-  	border-bottom-left-radius: 0px;
-  	border-bottom-right-radius: 0px;
+    background-color: var(--history);
+    color: var(--light);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 } 
 
 .collapsiblehis:hover{
-  	background-color: var(--history);
-  	color: var(--light);
+    background-color: var(--history);
+    color: var(--light);
 }
 
 .historiafakta p{
-	padding: 4vw;
-	text-align: justify;
-	font-size: 3vw;
+  padding: 4vw;
+  text-align: justify;
+  font-size: 3vw;
   max-height: 16vh;
  overflow: auto;
 }
 
 .historiafakta {
-  	width: 100%;
-  	display: none;
-  	overflow: hidden;
+    width: 100%;
+    display: none;
+    overflow: hidden;
    height: 20vh;
-  	margin-bottom: 3px;
-  	background-color: var(--light);
-  	border-bottom-right-radius: 20px;
-  	border-bottom-left-radius: 20px;
-  	-webkit-transition: ease-in 2s;
-  	font-family: var(--text); 	
+    margin-bottom: 3px;
+    background-color: var(--light);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    -webkit-transition: ease-in 2s;
+    font-family: var(--text);   
 }
 
 .collapsiblehis{
-  	background-color: var(--light);
-  	padding: 15px;
-  	color: white;
-  	cursor: pointer;
-  	width: 100%;
-  	border: none;
-  	text-align: center;
-  	outline: none;
-  	font-size: 15px;
-  	border-radius: 20px;
-  	margin-top: 2vh;
-  	color: var(--history);
-  	font-size: 7vw;
-  	font-family: var(--text);
+    background-color: var(--light);
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 2vh;
+    color: var(--history);
+    font-size: 7vw;
+    font-family: var(--text);
 
 }
 
