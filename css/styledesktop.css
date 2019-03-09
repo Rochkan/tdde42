@@ -95,7 +95,6 @@ body{
   max-width: 90px;
   margin: 0;
   padding-top: 1vh;
-
 }
 
 #container{
@@ -130,7 +129,7 @@ body{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   padding:1vh 0;
-}
+ }
 
 .rubrik img{
   width:7vw;
@@ -155,7 +154,7 @@ body{
  #dagens .faktaruta{
   height: 100%;
  } 
- 
+
 #random{
   height: 100%;
   background-color: var(--light);
@@ -212,6 +211,20 @@ body{
 #twodays button{
   font-size: 2em;
 }
+
+
+#oneday button{
+  font-size: 2em;
+}
+
+#twodays{
+  width: 100%;
+}
+
+#twodays button{
+  font-size: 2em;
+}
+
 
 #threedays{
   width: 100%;
@@ -274,7 +287,6 @@ NATURSIDA
     outline: none;
     font-size: 15px;
     border-radius: 20px;
-    /*margin-top: 2vh;*/
     color: var(--natur);
     font-size: 7vw;
     font-family: var(--text);
@@ -366,7 +378,6 @@ NATURSIDA
     outline: none;
     font-size: 15px;
     border-radius: 20px;
-    /*margin-top: 2vh;*/
     color: var(--ovrigt);
     font-size: 7vw;
     font-family: var(--text);
@@ -424,7 +435,6 @@ Ekonomi
     outline: none;
     font-size: 15px;
     border-radius: 20px;
-    /*margin-top: 2vh;*/
     color: var(--economy);
     font-size: 7vw;
     font-family: var(--text);
@@ -481,7 +491,6 @@ historia
     outline: none;
     font-size: 15px;
     border-radius: 20px;
-    /*margin-top: 2vh;*/
     color: var(--history);
     font-size: 7vw;
     font-family: var(--text);
