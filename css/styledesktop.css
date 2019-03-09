@@ -289,8 +289,7 @@ NATURSIDA
 }
 
 #plusminus img{
-  width: 30%;
-  margin: 3vw;
+  width: 50%;
 }
 
 #fakta{
@@ -314,7 +313,7 @@ NATURSIDA
   border-radius: 0px 0px 20px 20px;
   background-color: var(--light);
   padding: 1.5vh;
-  height: 15vh;
+  height: 17vh;
   overflow: auto;
 
 }
