@@ -91,18 +91,17 @@ body{
 }
 
 #logomenu{
-  width: 8vw;
-  max-width: 80px;
+  width: 9vw;
+  max-width: 90px;
   margin: 0;
-  padding: 0;
-
+  padding-top: 1vh;
 }
 
 #container{
 	max-width: 1200px;
   width: 90%;
   height: 100%;
-  padding-top: 2%;
+  padding-top: 4vh;
   margin: 0 auto;
   grid-row-start: 2;
   grid-row-end: 3;
@@ -125,12 +124,12 @@ body{
 
 .rubrik{
   display:grid;
-  grid-template-columns: 17vw auto;
+  grid-template-columns: 12vw auto;
   background-color: var(--history);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  padding-bottom:1vh;
-}
+  padding:1vh 0;
+ }
 
 .rubrik img{
   width:7vw;
@@ -150,8 +149,11 @@ body{
  max-height: 28vh;
  overflow: auto;
  margin:1vh 2vw 0 2vw;
-
 }
+
+ #dagens .faktaruta{
+  height: 100%;
+ } 
 
 #random{
   height: 100%;
@@ -188,7 +190,7 @@ body{
   grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 1;
-  grid-row-end: 6;
+  grid-row-end: 5;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -209,6 +211,20 @@ body{
 #twodays button{
   font-size: 2em;
 }
+
+
+#oneday button{
+  font-size: 2em;
+}
+
+#twodays{
+  width: 100%;
+}
+
+#twodays button{
+  font-size: 2em;
+}
+
 
 #threedays{
   width: 100%;
@@ -265,12 +281,12 @@ NATURSIDA
     color: white;
     cursor: pointer;
     width: 100%;
+    height: 8.3vh;
     border: none;
     text-align: center;
     outline: none;
     font-size: 15px;
     border-radius: 20px;
-    margin-top: 2vh;
     color: var(--natur);
     font-size: 7vw;
     font-family: var(--text);
@@ -356,12 +372,12 @@ NATURSIDA
     color: white;
     cursor: pointer;
     width: 100%;
+    height: 8.3vh;
     border: none;
     text-align: center;
     outline: none;
     font-size: 15px;
     border-radius: 20px;
-    margin-top: 2vh;
     color: var(--ovrigt);
     font-size: 7vw;
     font-family: var(--text);
@@ -413,12 +429,12 @@ Ekonomi
     color: white;
     cursor: pointer;
     width: 100%;
+    height: 8.3vh;
     border: none;
     text-align: center;
     outline: none;
     font-size: 15px;
     border-radius: 20px;
-    margin-top: 2vh;
     color: var(--economy);
     font-size: 7vw;
     font-family: var(--text);
@@ -469,12 +485,12 @@ historia
     color: white;
     cursor: pointer;
     width: 100%;
+    height: 8.3vh;
     border: none;
     text-align: center;
     outline: none;
     font-size: 15px;
     border-radius: 20px;
-    margin-top: 2vh;
     color: var(--history);
     font-size: 7vw;
     font-family: var(--text);

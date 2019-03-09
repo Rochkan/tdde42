@@ -6,13 +6,13 @@
 	--ovrigt: #a1618c;
 	--history: #2f879e;
 	--ekonomy: #c39423;
- --random: #e0b8b8;
- --text: Oswald;
+	--random: #e0b8b8;
+ 	--text: Oswald;
 }
 
 body{
 	height: 100vh;
- min-width: 300px;
+ 	min-width: 300px;
  
 }
 
@@ -23,18 +23,19 @@ body{
 	background-color: var(--dark);
 	display: grid;
 	grid-template-columns: auto;
-	grid-template-rows: 12vh 78vh 10vh;
+	grid-template-rows: 12vh 83vh 5vh;
 	grid-gap: auto;
 	overflow: auto;
  	margin: 0 auto;
  	padding-bottom: 30vh;
 }
  
- #mb{
-  border-bottom: 0.25vh solid var(--light);
+#mb{
+  	width:100vw;
+	border-bottom: 0.25vh solid var(--light);
  	background-color: var(--dark);
-  grid-row-start: 1;
-	 grid-row-end: 2;
+  	grid-row-start: 1;
+	grid-row-end: 2;
  }
  
  #menubar{
@@ -42,10 +43,8 @@ body{
  } 
  
 #menu{
-	width: 100%;
 
-	grid-column-start: 1;
-	grid-column-end: 2;
+	width: 90%;
  display: flex;
  flex-direction: row;
  justify-content: space-between;
@@ -54,23 +53,23 @@ body{
 }
 
  #buttonpanel{
-  width: 11vw;
-  margin-left: 5vw;
+  width: 9vw;
+  padding-right: 5vw;
   padding-top: 2vh;
  }
 
+ 
 #toggleBtn{
  	width: 100%;
  	max-width: 50px;
- 	padding: 2.5%;
-	 transition: linear 2s;
-
-}
+	transition: linear 0.5s;
+ }
 
 #buttons{
 	display: none;
 	width: 100vw;
 	height: 30vh;
+ margin-top: 1vh;
 	max-width: 767px;
 	background-color: var(--dark);
 	border-bottom: 0.25vh solid var(--light);
@@ -117,13 +116,9 @@ body{
 
 #logo{
 	width: 18vw;
-	max-width: 60px;
+	max-width: 60px; /* ska den vara större?*/
 	margin: 0;
 	padding-top: 2vh;
-	/*grid-column-start:2;
-	grid-column-end:3;*/
-
-
 }
 
  #easter img{
@@ -143,7 +138,7 @@ body{
 	grid-row-end: 3;
 	display: grid;
 	grid-template-columns: 15% 15% 15% 15% 15% 15%;
-	grid-template-rows: 14% 14% 14% 7% 14% 14%;
+	grid-template-rows: 14% 14% 14% 14% 14% 14%;
 	grid-gap:2%;
 }
 
@@ -194,10 +189,10 @@ body{
 }
 
 #dagens .txtBox {
- max-height: 28vh;
+ max-height: 26vh;
  overflow: auto;
  margin:1vh 2vw 0 2vw;
-
+  margin-right: 8vw;
 }
 
 #random{
@@ -223,10 +218,6 @@ body{
 
 }
 
-#random:hover {
-  	background-color: var(--light);
-  	color: var(--dark);
-}
 
 #random a:link{
   	text-decoration: none;
