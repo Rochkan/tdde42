@@ -8,6 +8,7 @@
   --history: #2f879e;
   --economy: #c39423;
   --text: Oswald;
+  --brod: sans-serif;
 }
 
 body{
@@ -150,7 +151,7 @@ body{
  max-height: 21vh;
  overflow: auto;
  margin:1vh 2vw 0 2vw;
-
+font-family:var(--brod);
 }
 
  #more{
@@ -315,7 +316,7 @@ NATURSIDA
   padding: 1.5vh;
   height: 15vh;
   overflow: auto;
-
+font-family:var(--brod);
 }
 
 #doldfakta{
@@ -372,11 +373,11 @@ NATURSIDA
 }
 
 .naturfakta p{
-  padding: 4vw;
-  text-align: justify;
-  font-size: 3vw;
+  padding: 2vw;
+ font-size: 1.2em;
  max-height: 16vh;
  overflow: auto;
+ font-family:var(--brod);
 }
 
 
@@ -400,11 +401,11 @@ NATURSIDA
 }
 
 .ovrigtfakta p{
-  padding: 4vw;
-  text-align: justify;
-  font-size: 3vw;
+ padding: 2vw;
+ font-size: 1.2em;
  max-height: 16vh;
  overflow: auto;
+ font-family:var(--brod);
 }
 
 .ovrigtfakta {
@@ -457,11 +458,11 @@ Ekonomi
 }
 
 .ekonomifakta p{
-  padding: 4vw;
-  text-align: justify;
-  font-size: 3vw;
+ padding: 2vw;
+ font-size: 1.2em;
  max-height: 16vh;
  overflow: auto;
+ font-family:var(--brod);
 }
 
 .ekonomifakta {
@@ -513,11 +514,11 @@ historia
 }
 
 .historiafakta p{
-  padding: 4vw;
-  text-align: justify;
-  font-size: 3vw;
+ padding: 2vw;
+ font-size: 1.2em;
  max-height: 16vh;
  overflow: auto;
+ font-family:var(--brod);
 }
 
 .historiafakta {
