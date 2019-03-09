@@ -153,6 +153,10 @@ body{
 
 }
 
+ #more{
+  display: none;
+ } 
+ 
 #random{
 
 	height: 96%;
