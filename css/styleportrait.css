@@ -176,7 +176,7 @@ body{
 }
 
 #dagens .txtBox {
- max-height: 28vh;
+ max-height: 20vh;
  overflow: auto;
  margin:1vh 2vw 0 2vw;
 
