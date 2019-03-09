@@ -107,7 +107,7 @@ body{
   grid-row-end: 3;
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 15% 15%;
-  grid-template-rows: 14% 14% 14% 7% 14% 14%;
+  grid-template-rows: 14% 14% 14% 10% 12% 12%;
   grid-gap:2%;
   
 }
@@ -155,7 +155,7 @@ body{
 
 #random{
 
-	height: 100%;
+	height: 96%;
 	background-color: var(--dark);
  border: 0.25vh solid var(--light);
 	border-radius: 15px;
@@ -190,14 +190,14 @@ body{
 	grid-column-start: 2;
 	grid-column-end: 6;
 	grid-row-start: 5;
-	grid-row-end: 5;
+	grid-row-end: 7;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 #oneday{
-  width: 45%;
+  width: 28.8vw;
 }
 
 #oneday button{
@@ -205,7 +205,7 @@ body{
 }
 
 #twodays{
-  width: 45%;
+  width: 28.8vw;
 }
 
 #twodays button{
@@ -213,7 +213,7 @@ body{
 }
 
 #threedays{
-  width: 45%;
+  width: 28.8vw;
 }
 
 #threedays button{
@@ -222,7 +222,7 @@ body{
 
 
 #fourdays{
-  width: 45%;
+  width: 28.8vw;
 }
 
 #fourdays button{
@@ -275,7 +275,7 @@ NATURSIDA
 }
 
 #plusminus img{
-  width: 50%;
+  width: 35%;
 }
 
 #fakta{
@@ -326,7 +326,7 @@ NATURSIDA
     outline: none;
     font-size: 15px;
     border-radius: 20px;
-    margin-top: 2vh;
+    margin-top: 1.8vh;
     color: var(--natur);
     font-size: 7vw;
     font-family: var(--text);
@@ -417,7 +417,7 @@ NATURSIDA
     outline: none;
     font-size: 15px;
     border-radius: 20px;
-    margin-top: 2vh;
+    /*margin-top: 2vh;*/
     color: var(--ovrigt);
     font-size: 7vw;
     font-family: var(--text);
@@ -474,7 +474,7 @@ Ekonomi
     outline: none;
     font-size: 15px;
     border-radius: 20px;
-    margin-top: 2vh;
+    /*margin-top: 2vh;*/
     color: var(--economy);
     font-size: 7vw;
     font-family: var(--text);
@@ -530,7 +530,7 @@ historia
     outline: none;
     font-size: 15px;
     border-radius: 20px;
-    margin-top: 2vh;
+    margin-top: 1.8vh;
     color: var(--history);
     font-size: 7vw;
     font-family: var(--text);
