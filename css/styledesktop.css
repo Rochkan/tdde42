@@ -268,11 +268,66 @@ NATURSIDA
 NATURSIDA
 NATURSIDA
 */
-#natursida{
+#containernatur{
   width: 90%;
+  height: 100%;
+  padding-top: 2%;
   margin: 0 auto;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 90%;
+  grid-gap:2%;
+}
+
+#plusminus{
+  display:flex;
+  justify-content: center;
+  height: 100%;
+  background-color: var(--dark);
+}
+
+#plusminus img{
+  width: 30%;
+  margin: 3vw;
+}
+
+#fakta{
+  margin-top: 0.5vh;
+  border-radius: 20px;
+  padding: 1.5vh;
+  width: 27vw;
+}
+
+#fakta h1{
+  color: var(--light);
+  background-color: var(--natur);
+  text-align: center;
+  padding: 1.5vh;
+  font-family: var(--text);
+  font-size: 7vh;
+  border-radius: 20px 20px 0px 0px;
+}
+
+#fakta p{
+  border-radius: 0px 0px 20px 20px;
+  background-color: var(--light);
+  padding: 1.5vh;
+  height: 15vh;
+  overflow: auto;
+
+}
+
+#doldfakta{
+  display:none;
+}
+
+#natursida{
+  width: 100%;
+  grid-row-start: 2;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .collapsiblenat{
