@@ -13,3 +13,9 @@ footern försvinner när vi försöker "sätta fast" den
 "Layouts support dynamic size of content components (e.g. amount of text, number of articles)"
 Är det ok om vi bara har en lägg till en artikel i denna sida? 
 hur hanterar vi (diven) om det finns massor med text kontra lite? 
+
+Frågor till Robin:
+
+ - i css.portrait: i "buttons" finns en max-width:767px. borde den vara högre? tänker pga portrait... eller behövs den öht?
+ 
+ -
