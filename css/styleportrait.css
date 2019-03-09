@@ -67,7 +67,6 @@ body{
 	display: none;
 	width: 100vw;
 	height: 30vh;
-	max-width: 767px;
 	background-color: var(--dark);
 	border-bottom: 0.25vh solid var(--light);
 }
