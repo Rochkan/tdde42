@@ -94,7 +94,7 @@ body{
   width: 9vw;
   max-width: 90px;
   margin: 0;
-  padding-top: 1vh;
+  padding-top: 0;
 }
 
 #container{
@@ -146,10 +146,25 @@ body{
 }
 
 #dagens .txtBox {
- max-height: 28vh;
+ max-height: 20vh;
  overflow: auto;
  margin:1vh 2vw 0 2vw;
+ font-family:var(--brod);
 }
+
+ #more{
+  display: none;
+ }
+ 
+ #myBtn{
+ background-color: var(--light);
+ border: 0.25vh solid var(--dark);
+  border-radius: 15px; 
+ font-family: var(--text);
+ padding:0.5vw 1vw;
+ margin-top: 1vh;
+ 
+ }
 
  #dagens .faktaruta{
   height: 100%;
