@@ -284,6 +284,7 @@ NATURSIDA
 NATURSIDA
 */
 #containernatur{
+  max-width: 1200px;
   width: 90%;
   height: 100%;
   padding-top: 2%;
@@ -311,7 +312,7 @@ NATURSIDA
   margin-top: 0.5vh;
   border-radius: 20px;
   padding: 1.5vh;
-  width: 27vw;
+  width: 24vw;
 }
 
 #fakta h1{
