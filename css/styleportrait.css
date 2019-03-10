@@ -154,22 +154,22 @@ body{
 
 .rubrik{
  	display:grid;
- 	grid-template-columns: 13vw auto;
+ 	grid-template-columns: 15vw auto;
  	background-color: var(--history);
  	border-top-left-radius: 15px;
  	border-top-right-radius: 15px;
- 	padding:1vh 0 1vh 0;
+ 	padding:0.5vh 0 1.5vh 0;
 }
 
 .rubrik img{
  width:11vw;
- padding: 1vh;
+ padding: 1vh 1vw 1.5vh 2vw;
  grid-column-start: 1;
 	grid-column-end: 2;
 }
 
 #dagens h1{
-	font-size: 10vh;
+	font-size: 9vh;
 	grid-column-start: 2;
 	grid-column-end: 3;
 	color: var(--light);
@@ -189,10 +189,10 @@ font-family:var(--brod);
  
  #myBtn{
  background-color: var(--light);
- border: 0.25vh solid var(--dark);
+ border: 0.15vh solid var(--dark);
 	border-radius: 15px; 
  font-family: var(--text);
- padding:0.5vw 1vw;
+ padding:0.5vw 2vw;
  margin-top: 1vh;
  
  }

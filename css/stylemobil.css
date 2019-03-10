@@ -133,7 +133,7 @@ body{
 #container{
 	width: 90%;
 	height: 100%;
-	padding-top: 4vh;
+	padding-top: 2vh;
 	margin: 0 auto;
 	grid-row-start: 2;
 	grid-row-end: 3;
@@ -204,9 +204,10 @@ body{
  
  #myBtn{
  background-color: var(--light);
- border: 0.25vh solid var(--dark);
-	border-radius: 15px; 
+ border: 0.15vh solid var(--dark);
+	border-radius: 10px; 
  font-family: var(--text);
+ font-size: 0.6em;
  padding:0.5vw 2vw;
  margin-top: 1vh;
  
