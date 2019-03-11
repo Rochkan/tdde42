@@ -190,7 +190,7 @@ font-family:var(--brod);
  #myBtn{
  background-color: var(--light);
  border: 0.15vh solid var(--dark);
-	border-radius: 15px; 
+	border-radius: 10px; 
  font-family: var(--text);
  padding:0.5vw 2vw;
  margin-top: 1vh;
