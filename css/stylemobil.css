@@ -25,11 +25,11 @@ body{
 	background-color: var(--dark);
 	display: grid;
 	grid-template-columns: auto;
-	grid-template-rows: 12vh 83vh 5vh;
+	grid-template-rows: 10vh 84vh;
 	grid-gap: auto;
 	overflow: auto;
  	margin: 0 auto;
- 	padding-bottom: 30vh;
+
 }
  
 #mb{
@@ -140,7 +140,7 @@ body{
 	grid-row-end: 3;
 	display: grid;
 	grid-template-columns: 15% 15% 15% 15% 15% 15%;
-	grid-template-rows: 14% 14% 14% 7% 14% 14%;
+	grid-template-rows: 14% 14% 14% 7% 10% 14%;
 	grid-gap:2%;
 }
 
@@ -191,11 +191,10 @@ body{
 }
 
 #dagens .txtBox {
- max-height: 32vh;
- font-size: 1.2em;
+ max-height: 34.5vh;
+ font-size: 0.75rem;
  overflow: auto;
  margin:1vh 2vw 0 2vw;
-  margin-right: 8vw;
  font-family:var(--brod);
 }
 
@@ -214,35 +213,38 @@ body{
  
  }
  
- 
-#random{
-	height: 100%;
-	background-color: var(--dark);
- 	border-radius: 15px;
- 	border: 0.25vh solid var(--light);
-	font-family: var(--text);
-	text-align: center;
-	grid-column-start: 2;
-	grid-column-end: 6;
-	grid-row-start: 5;
-	grid-row-end: 6;
-	display: flex;
- 	align-items: center;
+ #random{
+  height: 100%;
+  background-color: var(--light);
+  color: var(--dark);
+  border-radius: 20px;
+  font-family: var(--text);
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  display: flex;
+  align-items: center;
 }
 
 
 #random a{
-	margin: 0 auto;
-	font-size: 2em;
-	text-align: center;
-
+  margin: 0 auto;
+  font-size: 1.5rem;
+  text-align: center;
+ color: var(--dark);
 }
 
 
-#random a:link{
-  	text-decoration: none;
-  	color: var(--light);
+#random a:link {
+   color: var(--dark);
+    text-decoration: none;
 }
+
+ #random a:visited;{
+  background-color: var(--light);
+ }
 
 #veckan{
 	display: none;

@@ -23,8 +23,8 @@ body{
   background-color: var(--dark);
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 12vh 83vh 5vh;
-  grid-gap: auto;
+  grid-template-rows: 12vh 88vh;
+  grid-gap: 0;
   overflow: auto;
   margin: 0 auto;
  padding-bottom: 30vh;
@@ -111,6 +111,7 @@ body{
   grid-gap:2%;
   
 }
+ 
 #dagens{
   width: 100%;
   background-color: var(--light);
@@ -120,6 +121,7 @@ body{
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 4;
+ padding-bottom: 1vh;
 }
 
 .rubrik{
@@ -147,10 +149,11 @@ body{
 }
 
 #dagens .txtBox {
- max-height: 18vh;
+ max-height: 24vh;
  overflow: auto;
  margin:1vh 2vw 0 2vw;
  font-family:var(--brod);
+ font-size: 1rem;
 }
 
  #more{
@@ -167,12 +170,8 @@ body{
  
  }
 
- #dagens .faktaruta{
-  height: 100%;
- } 
-
 #random{
-  height: 100%;
+  height: 8.3vh;
   background-color: var(--light);
   color: var(--dark);
   border-radius: 15px;
@@ -314,7 +313,7 @@ NATURSIDA
   margin-top: 0.5vh;
   border-radius: 20px;
   padding: 1.5vh;
-  width: 26vw;
+  width: 27vw;
 }
 
 .fakta h1{
@@ -344,6 +343,7 @@ NATURSIDA
   grid-row-start: 2;
   display: flex;
   flex-wrap: wrap;
+ align-items: flex-start;
 }
  
  /*
@@ -380,7 +380,7 @@ NATURSIDA
  max-height: 11vh;
  overflow: auto;
  font-family: var(--brod);
- font-size:1.2em;
+ font-size:1rem;
  }
  
 /*
