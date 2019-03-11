@@ -174,6 +174,7 @@ body{
 #random{
   height: 100%;
   background-color: var(--light);
+  color: var(--dark);
   border-radius: 15px;
   font-family: var(--text);
   text-align: center;
@@ -182,7 +183,7 @@ body{
   grid-row-start: 4;
   grid-row-end: 5;
   display: flex;
-    align-items: center;
+  align-items: center;
 }
 
 
@@ -190,18 +191,20 @@ body{
   margin: 0 auto;
   font-size: 2em;
   text-align: center;
-
+ color: var(--dark);
 }
 
-#random a:hover {
-    background-color: blue;
-}
 
 #random a:link {
    color: var(--dark);
     text-decoration: none;
 }
 
+ #random a:visited;{
+  background-color: var(--light);
+ 
+ }
+ 
 #veckan{
   grid-column-start: 5;
   grid-column-end: 7;
@@ -274,26 +277,6 @@ body{
  font-size: 2vh;
  font-family: var(--text);
 }
-
-.collapsible {
-    padding: 15px;
-    cursor: pointer;
-    width: 100%;
-    height: 8.3vh;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 15px;
-    border-radius: 20px;
-    font-size: 7vw;
-    font-family: var(--text);
-}
-
-.collapsible.active {
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px; 
-}
- 
  
 /*
 NATURSIDA
@@ -362,7 +345,51 @@ NATURSIDA
   display: flex;
   flex-wrap: wrap;
 }
+ 
+ /*
+ ALLMÄNT KNAPPAR
+ ALLMÄNT KNAPPAR
+ ALLMÄNT KNAPPAR
+ ALLMÄNT KNAPPAR
+ */
+ 
+ .collapsible {
+    padding: 15px;
+  margin-bottom: 0.5vh;
+    cursor: pointer;
+    width: 100%;
+    height: 8.3vh;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    font-size: 7vw;
+    font-family: var(--text);
+}
 
+.collapsible.active {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px; 
+ margin-bottom: 0;
+}
+ 
+ .form p{
+   padding: 2vw;
+ margin-bottom: 1vh;
+ max-height: 11vh;
+ overflow: auto;
+ font-family: var(--brod);
+ font-size:1.2em;
+ }
+ 
+/*
+ NATURKNAPP
+ NATURKNAPP
+ NATURKNAPP
+ NATURKNAPP
+*/
+ 
 .natcolor {
  color: var(--natur);
  background-color: var(--light);
@@ -378,14 +405,7 @@ NATURSIDA
     color: var(--natur);
 }
 
-.naturfakta p{
- padding: 2vw;
- margin-bottom: 1vh;
- max-height: 14vh;
- overflow: auto;
- font-family: var(--brod);
- font-size:1.2em;
-}
+
 
 .naturfakta {
     width: 100%;
@@ -398,10 +418,10 @@ NATURSIDA
 }
 
 /*
-ÖVRIGT
-ÖVRIGT
-ÖVRIGT
-ÖVRIGT
+ÖVRIGTKNAPP
+ÖVRIGTKNAPP
+ÖVRIGTKNAPP
+ÖVRIGTKNAPP
 */
 .ovrcolor {
  color: var(--ovrigt);
@@ -418,14 +438,6 @@ NATURSIDA
     color: var(--ovrigt);
 }
 
-.ovrigtfakta p{
- padding: 2vw;
- margin-bottom: 1vh;
- max-height: 14vh;
- overflow: auto;
- font-family: var(--brod);
- font-size:1.2em;
-}
 
 .ovrigtfakta {
     width: 100%;
@@ -438,10 +450,10 @@ NATURSIDA
 }
 
 /*
-Ekonomi
-Ekonomi
-Ekonomi
-Ekonomi
+Ekonomiknapp
+Ekonomiknapp
+Ekonomiknapp
+Ekonomiknapp
 */ 
  
 .ekocolor {
@@ -459,14 +471,6 @@ Ekonomi
     color: var(--economy);
 }
 
-.ekonomifakta p{
- padding: 2vw;
- margin-bottom: 1vh;
- max-height: 14vh;
- overflow: auto;
- font-family: var(--brod);
- font-size:1.2em;
-}
 
 .ekonomifakta {
     width: 100%;
@@ -479,10 +483,10 @@ Ekonomi
 }
 
 /*
-historia
-historia
-historia
-historia
+historiaknapp
+historiaknapp
+historiaknapp
+historiaknapp
 */ 
 
  .hiscolor {
@@ -500,14 +504,6 @@ historia
     color: var(--history);
 }
 
-.historiafakta p{
- padding: 2vw;
- margin-bottom: 1vh;
- max-height: 14vh;
- overflow: auto;
- font-family: var(--brod);
- font-size:1.2em;
-}
 
 .historiafakta {
     width: 100%;
