@@ -1,10 +1,9 @@
 TO DO:
 
-- JS till meny-natur (se frågor)
-- definera text i naturrutor
-- Random: ta bort dagens, lägg till fakta
-fixa footern mobil
-ROBIN VIKTIG!! två knappar som lägger till/tar bort innehåll i natur.html
-LINA lägg in en "mb-div i ipad ovh mobile så att hamburgern håller sig inom 90%.
+definera text i naturrutor
 
--övriga layouter
+ändra "collapsibleovr" till collapsible ovrcolor
+
+fixa till textlängden i veckan
+
+ta bort padding på "igår" osv.

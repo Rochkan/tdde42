@@ -94,7 +94,7 @@ body{
   width: 9vw;
   max-width: 90px;
   margin: 0;
-  padding-top: 0;
+  padding-top: 1vh;
 }
 
 #container{
@@ -275,8 +275,26 @@ body{
  font-family: var(--text);
 }
 
+.collapsible {
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+    height: 8.3vh;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    font-size: 7vw;
+    font-family: var(--text);
+}
 
-
+.collapsible.active {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px; 
+}
+ 
+ 
 /*
 NATURSIDA
 NATURSIDA
@@ -313,7 +331,7 @@ NATURSIDA
   margin-top: 0.5vh;
   border-radius: 20px;
   padding: 1.5vh;
-  width: 22vw;
+  width: 26vw;
 }
 
 .fakta h1{
@@ -345,56 +363,39 @@ NATURSIDA
   flex-wrap: wrap;
 }
 
-.collapsiblenat{
-    background-color: var(--light);
-    padding: 15px;
-    color: white;
-    cursor: pointer;
-    width: 100%;
-    height: 8.3vh;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 15px;
-    border-radius: 20px;
-    color: var(--natur);
-    font-size: 7vw;
-    font-family: var(--text);
-
+.natcolor {
+ color: var(--natur);
+ background-color: var(--light);
+}
+ 
+.collapsible.natcolor.active {
+ color: var(--light);
+ background-color: var(--natur);
 }
 
-.collapsblenat:active {
-    background-color: var(--natur);
-    color: var(--light);
-    border-radius: 20px 20px 0px 0px;
-} 
+.collapsible.natcolor.hover{
+    background-color: var(--light);
+    color: var(--natur);
+}
 
-.collapsiblenat:hover {
-    background-color: var(--natur);
-    color: var(--light);
+.naturfakta p{
+ padding: 2vw;
+ margin-bottom: 1vh;
+ max-height: 14vh;
+ overflow: auto;
+ font-family: var(--brod);
+ font-size:1.2em;
 }
 
 .naturfakta {
     width: 100%;
-   height: 20vh;
     display: none;
-    overflow: hidden;
-    margin-bottom: 3px;
+    height: 18vh;
+    margin-bottom: 1vh;
     background-color: var(--light);
-    border-radius: 0px 0px 20px 20px;
-    -webkit-transition: ease-in 2s;
-    font-family: var(--text);
- 
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
-
-.naturfakta p{
-  padding: 4vw;
-  text-align: justify;
-  font-size: 3vw;
- max-height: 16vh;
- overflow: auto;
-}
-
 
 /*
 ÖVRIGT
@@ -402,68 +403,38 @@ NATURSIDA
 ÖVRIGT
 ÖVRIGT
 */
+.ovrcolor {
+ color: var(--ovrigt);
+ background-color: var(--light);
+}
+ 
+.collapsible.ovrcolor.active {
+ color: var(--light);
+ background-color: var(--ovrigt);
+}
 
-.collapsibleovr:active{
-    background-color: var(--ovrigt);
-    color: var(--light);
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-} 
-
-.collapsibleovr:hover{
-    background-color: var(--ovrigt);
-    color: var(--light);
+.collapsible.ovrcolor.hover{
+    background-color: var(--light);
+    color: var(--ovrigt);
 }
 
 .ovrigtfakta p{
-  padding: 4vw;
-  text-align: justify;
-  font-size: 3vw;
- max-height: 16vh;
+ padding: 2vw;
+ margin-bottom: 1vh;
+ max-height: 14vh;
  overflow: auto;
+ font-family: var(--brod);
+ font-size:1.2em;
 }
 
 .ovrigtfakta {
     width: 100%;
     display: none;
-    overflow: hidden;
-   height: 20vh;
-    margin-bottom: 3px;
+    height: 18vh;
+    margin-bottom: 1vh;
     background-color: var(--light);
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    -webkit-transition: ease-in 2s;
-    font-family: var(--text);   
-}
-
-.collapsible {
-    background-color: var(--light);
-    padding: 15px;
-    color: white;
-    cursor: pointer;
-    width: 100%;
-    height: 8.3vh;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 15px;
-    border-radius: 20px;
-    color: var(--ovrigt);
-    font-size: 7vw;
-    font-family: var(--text);
-
-}
-
-.collapsible.active {
-  inte rundad längst ner
-}
-
-.collapsible.ovrcolor.active {
-
-}
-
-.ovrcolor {
-
 }
 
 /*
@@ -472,110 +443,80 @@ Ekonomi
 Ekonomi
 Ekonomi
 */ 
-.collapsibleeko:active{
-    background-color: var(--economy);
-    color: var(--light);
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-} 
+ 
+.ekocolor {
+ color: var(--economy);
+ background-color: var(--light);
+}
+ 
+.collapsible.ekocolor.active {
+ color: var(--light);
+ background-color: var(--economy);
+}
 
-.collapsibleeko:hover{
-    background-color: var(--economy);
-    color: var(--light);
+.collapsible.ekocolor.hover{
+    background-color: var(--light);
+    color: var(--economy);
 }
 
 .ekonomifakta p{
-  padding: 4vw;
-  text-align: justify;
-  font-size: 3vw;
- max-height: 16vh;
+ padding: 2vw;
+ margin-bottom: 1vh;
+ max-height: 14vh;
  overflow: auto;
+ font-family: var(--brod);
+ font-size:1.2em;
 }
 
 .ekonomifakta {
     width: 100%;
     display: none;
-   height: 20vh;
-    overflow: hidden;
-    margin-bottom: 3px;
+    height: 18vh;
+    margin-bottom: 1vh;
     background-color: var(--light);
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    -webkit-transition: ease-in 2s;
-    font-family: var(--text);   
 }
 
-.collapsibleeko{
-    background-color: var(--light);
-    padding: 15px;
-    color: white;
-    cursor: pointer;
-    width: 100%;
-    height: 8.3vh;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 15px;
-    border-radius: 20px;
-    color: var(--economy);
-    font-size: 7vw;
-    font-family: var(--text);
-
-}
 /*
 historia
 historia
 historia
 historia
 */ 
-.collapsiblehis:active{
-    background-color: var(--history);
-    color: var(--light);
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-} 
 
-.collapsiblehis:hover{
-    background-color: var(--history);
-    color: var(--light);
+ .hiscolor {
+ color: var(--history);
+ background-color: var(--light);
+}
+ 
+.collapsible.hiscolor.active {
+ color: var(--light);
+ background-color: var(--history);
+}
+
+.collapsible.hiscolor.hover{
+    background-color: var(--light);
+    color: var(--history);
 }
 
 .historiafakta p{
-  padding: 4vw;
-  text-align: justify;
-  font-size: 3vw;
- max-height: 16vh;
+ padding: 2vw;
+ margin-bottom: 1vh;
+ max-height: 14vh;
  overflow: auto;
+ font-family: var(--brod);
+ font-size:1.2em;
 }
 
 .historiafakta {
     width: 100%;
     display: none;
-   height: 20vh;
-    overflow: hidden;
-    margin-bottom: 3px;
+    height: 18vh;
+    margin-bottom: 1vh;
     background-color: var(--light);
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    -webkit-transition: ease-in 2s;
-    font-family: var(--text);   
 }
 
-.collapsiblehis{
-    background-color: var(--light);
-    padding: 15px;
-    color: white;
-    cursor: pointer;
-    width: 100%;
-    height: 8.3vh;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 15px;
-    border-radius: 20px;
-    color: var(--history);
-    font-size: 7vw;
-    font-family: var(--text);
-
-}
 }
