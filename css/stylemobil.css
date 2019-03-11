@@ -20,6 +20,7 @@ body{
 #wrapper{
 	height: 100%;
 	width: 100vw;
+	min-width: 300px;
 	max-width: 767px;
 	background-color: var(--dark);
 	display: grid;
@@ -116,8 +117,8 @@ body{
 }
 
 #logo{
-	width: 18vw;
-	max-width: 60px; /* ska den vara större?*/
+	width: 12vw;
+	max-width: 90px; /* ska den vara större?*/
 	margin: 0;
 	padding-top: 2vh;
 }
@@ -190,7 +191,7 @@ body{
 }
 
 #dagens .txtBox {
- max-height: 34vh;
+ max-height: 32vh;
  font-size: 1.2em;
  overflow: auto;
  margin:1vh 2vw 0 2vw;
