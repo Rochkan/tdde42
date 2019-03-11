@@ -115,7 +115,7 @@ body{
   width: 100%;
   background-color: var(--light);
   border-radius: 15px;
-  font-family: var(--text);
+  font-family: var(--brod);
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 1;
@@ -129,6 +129,7 @@ body{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   padding:1vh 0;
+  font-family: var(--text);
  }
 
 .rubrik img{
@@ -146,7 +147,7 @@ body{
 }
 
 #dagens .txtBox {
- max-height: 20vh;
+ max-height: 18vh;
  overflow: auto;
  margin:1vh 2vw 0 2vw;
  font-family:var(--brod);
