@@ -309,14 +309,14 @@ NATURSIDA
   width: 50%;
 }
 
-#fakta{
+.fakta{
   margin-top: 0.5vh;
   border-radius: 20px;
   padding: 1.5vh;
-  width: 24vw;
+  width: 22vw;
 }
 
-#fakta h1{
+.fakta h1{
   color: var(--light);
   background-color: var(--natur);
   text-align: center;
@@ -326,13 +326,12 @@ NATURSIDA
   border-radius: 20px 20px 0px 0px;
 }
 
-#fakta p{
+.fakta p{
   border-radius: 0px 0px 20px 20px;
   background-color: var(--light);
   padding: 1.5vh;
   height: 17vh;
   overflow: auto;
-
 }
 
 #doldfakta{
@@ -437,7 +436,7 @@ NATURSIDA
     font-family: var(--text);   
 }
 
-.collapsibleovr{
+.collapsible {
     background-color: var(--light);
     padding: 15px;
     color: white;
@@ -452,6 +451,18 @@ NATURSIDA
     color: var(--ovrigt);
     font-size: 7vw;
     font-family: var(--text);
+
+}
+
+.collapsible.active {
+  inte rundad längst ner
+}
+
+.collapsible.ovrcolor.active {
+
+}
+
+.ovrcolor {
 
 }
 
