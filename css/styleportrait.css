@@ -200,7 +200,8 @@ font-family:var(--brod);
   
 #random{
   height: 7.5vh;
-  background-color: var(--light);
+  background-color: var(--dark);
+  border: 0.15vh solid var(--light);
   color: var(--dark);
   border-radius: 15px;
   font-family: var(--text);
@@ -218,7 +219,7 @@ font-family:var(--brod);
   margin: 0 auto;
   font-size: 2em;
   text-align: center;
- color: var(--dark);
+ color: var(--light);
 }
 
 
@@ -336,10 +337,15 @@ NATURSIDA
   text-align: center;
   padding: 1.5vh;
   font-family: var(--text);
-  font-size: 7vh;
+  font-size: 5vh;
   border-radius: 20px 20px 0px 0px;
 }
 
+  span img{
+  height: 5vh;
+  padding-right: 1vw;
+ }
+ 
 .fakta p{
   border-radius: 0px 0px 20px 20px;
   background-color: var(--light);

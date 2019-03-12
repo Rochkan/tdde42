@@ -322,7 +322,7 @@ NATURSIDA
   text-align: center;
   padding: 1.5vh;
   font-family: var(--text);
-  font-size: 7vh;
+  font-size: 6vh;
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -345,6 +345,11 @@ NATURSIDA
   flex-wrap: wrap;
  align-items: flex-start;
 }
+ 
+ span img{
+  height: 5vh;
+  padding-right: 1vw;
+ }
  
  /*
  ALLMÄNT KNAPPAR

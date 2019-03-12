@@ -307,10 +307,15 @@ NATURSIDA
   text-align: center;
   padding: 1.5vh;
   font-family: var(--text);
-  font-size: 7vh;
+  font-size: 5.5vh;
   border-radius: 20px 20px 0px 0px;
 }
-
+ 
+ span img{
+  height: 5vh;
+  padding-right: 1vw;
+ }
+ 
 .fakta p{
   border-radius: 0px 0px 20px 20px;
   background-color: var(--light);
