@@ -298,7 +298,7 @@ NATURSIDA
   margin-top: 0.5vh;
   border-radius: 20px;
   padding: 1.5vh;
-  width: 40vw;
+  width: 42.5vw;
 }
 
 .fakta h1{
@@ -322,7 +322,7 @@ NATURSIDA
   padding: 1.5vh;
   height: 15vh;
   overflow: auto;
-font-family:var(--brod);
+  font-family:var(--brod);
 }
 
 #doldfakta{
