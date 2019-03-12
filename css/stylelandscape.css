@@ -320,7 +320,7 @@ NATURSIDA
   border-radius: 0px 0px 20px 20px;
   background-color: var(--light);
   padding: 1.5vh;
-  height: 15vh;
+  height: 20vh;
   overflow: auto;
   font-family:var(--brod);
 }
