@@ -351,6 +351,7 @@ NATURSIDA
   padding: 1.5vh;
   height: 15vh;
   overflow: auto;
+  font-family:var(--brod);
 
 }
 
@@ -398,16 +399,7 @@ NATURSIDA
   font-family: var(--brod);
   font-size:0.82rem;
  }
- 
- .form{
-    width: 100%;
-    display: none;
-    height: 14vh;
-    margin-bottom: 1vh;
-    background-color: var(--light);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
- }
+
  
 /*
  naturknapp
@@ -431,7 +423,15 @@ NATURSIDA
     color: var(--natur);
 }
 
-
+.naturfakta {
+    width: 100%;
+    display: none;
+    height: 18vh;
+    margin-bottom: 1vh;
+    background-color: var(--light);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
 
 
 /*

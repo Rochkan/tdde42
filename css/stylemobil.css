@@ -272,6 +272,19 @@ NATURSIDA
 NATURSIDA
 NATURSIDA
 */
+#containernatur{
+  width: 90%;
+  height: 100%;
+  padding-top: 2%;
+  margin: 0 auto;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 90%;
+  grid-gap:2%;
+}
+
 #plusminus{
 	display:flex;
 	justify-content: center;
@@ -279,16 +292,16 @@ NATURSIDA
 }
 
 #plusminus img{
-	width: 30%;
+  width: 35%;
 }
 
-#fakta{
+.fakta{
 	margin-top: 0.5vh;
 	border-radius: 20px;
 	padding: 1.5vh;
 }
 
-#fakta h1{
+.fakta h1{
 	color: var(--light);
 	background-color: var(--natur);
 	text-align: center;
@@ -297,11 +310,19 @@ NATURSIDA
 	font-size: 7vh;
 	border-radius: 20px 20px 0px 0px;
 }
+ 
+ span img{
+  height: 5vh;
+  padding-right: 1vw;
+ }
 
-#fakta p{
+.fakta p{
 	border-radius: 0px 0px 20px 20px;
-	background-color: var(--light);
-	padding: 1.5vh;
+  background-color: var(--light);
+  padding: 1.5vh;
+  height: 15vh;
+  overflow: auto;
+font-family:var(--brod);
 
 }
 
@@ -314,52 +335,69 @@ NATURSIDA
 	grid-row-start: 2;
 }
 
-#collapsiblenat {
-  	background-color: var(--light);
-  	padding: 15px;
-  	color: white;
-  	cursor: pointer;
-  	width: 100%;
-  	border: none;
-  	text-align: center;
-  	outline: none;
-  	font-size: 15px;
-  	border-radius: 20px;
-  	margin-top: 2vh;
-  	color: var(--natur);
-  	font-size: 7vw;
-  	font-family: var(--text);
-
+/*
+ ALLMÄN KNAPP
+ ALLMÄN KNAPP
+ ALLMÄN KNAPP
+ ALLMÄN KNAPP
+ */
+ .collapsible {
+    cursor: pointer;
+    width: 100%;
+    height: 8.3vh;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    font-size: 7vw;
+    font-family: var(--text);
+    margin-bottom: 1vh;
 }
 
-#collapsiblenat:active {
-  background-color: var(--natur);
-  color: var(--natur);
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  
-} 
+.collapsible.active {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px; 
+  margin-bottom: 0;
+}
+ /*
+ naturknapp
+ naturknapp
+ naturknapp
+ naturknapp
+ */
+ .form p{
+   padding: 2vw;
+ margin-bottom: 1vh;
+ max-height: 11vh;
+ overflow: auto;
+ font-family: var(--brod);
+ font-size:0.7rem;
+ }
 
-#collapsiblenat:hover {
-  background-color: var(--natur);
-  color: var(--light);
+.natcolor {
+ color: var(--natur);
+ background-color: var(--light);
+}
+ 
+.collapsible.natcolor.active {
+ color: var(--light);
+ background-color: var(--natur);
 }
 
-#naturfakta {
-  width: 100%;
-  display: none;
-  overflow: hidden;
-  margin-bottom: 3px;
-  background-color: var(--light);
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  -webkit-transition: ease-in 2s;
-  font-family: var(--text);
-  font-size: 4vw;
+.collapsible.natcolor.hover{
+    background-color: var(--light);
+    color: var(--natur);
 }
 
-#naturfakta p{
-	padding: 4vw;
-	text-align: justify;
+
+.naturfakta {
+    width: 100%;
+    display: none;
+    height: 18vh;
+    margin-bottom: 1vh;
+    background-color: var(--light);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 }
