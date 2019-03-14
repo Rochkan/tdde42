@@ -126,7 +126,7 @@ body{
 
 .rubrik{
   display:grid;
-  grid-template-columns: 12vw auto;
+  grid-template-columns: 11rem auto;
   background-color: var(--history);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -135,17 +135,18 @@ body{
  }
 
 .rubrik img{
-  width:7vw;
-  margin: 1vh 1vw 1vh 2vw;
+  width:6.5rem;
+  margin: 1rem 1rem 1rem 2rem;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
 #dagens h1{
-  font-size: 7vw;
+  font-size: 6.5rem;
   grid-column-start: 2;
   grid-column-end: 3;
   color: var(--light);
+  align-self: center;
 }
 
 #dagens .txtBox {
@@ -306,7 +307,7 @@ NATURSIDA
 }
 
 #plusminus img{
-  width: 50%;
+  width: 35%;
 }
 
 .fakta{

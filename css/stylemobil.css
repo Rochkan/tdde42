@@ -120,15 +120,15 @@ body{
 	width: 12vw;
 	max-width: 90px; /* ska den vara större?*/
 	margin: 0;
-	padding-top: 2vh;
+	padding-top: 3vh;
 }
 
  #easter img{
- width: 18vw;
-	max-width: 60px;
+ 	width: 12vw;
+	max-width: 90px;
 	margin: 0;
-	padding-top: 2vh;
- visibility: hidden;
+	padding-top: 3vh;
+ 	visibility: hidden;
  }
 
 #container{
@@ -307,12 +307,12 @@ NATURSIDA
 	text-align: center;
 	padding: 1.5vh;
 	font-family: var(--text);
-	font-size: 7vh;
+	font-size: 3.2rem;
 	border-radius: 20px 20px 0px 0px;
 }
  
  span img{
-  height: 5vh;
+  height: 3.2rem;
   padding-right: 1vw;
  }
 

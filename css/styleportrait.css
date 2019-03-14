@@ -114,7 +114,7 @@ body{
 	width: 12vw;
 	max-width: 90px;
 	margin: 0;
-	padding-top: 2vh;
+	padding-top: 3vh;
 
 }
 
@@ -320,13 +320,13 @@ NATURSIDA
 }
 
 #plusminus img{
-  width: 30%;
+  width: 35%;
 }
 
 .fakta{
   margin-top: 0.5vh;
   border-radius: 20px;
-  padding: 1.5vh;
+  padding: 1rem;
 }
 
 .fakta h1{
@@ -335,13 +335,14 @@ NATURSIDA
   text-align: center;
   padding: 1.5vh;
   font-family: var(--text);
-  font-size: 5vh;
+  font-size: 3.2rem;
+  max-height: 99px;
   border-radius: 20px 20px 0px 0px;
-  width: 36.5vw;
+  width: 35vw;
 }
 
   span img{
-  height: 5vh;
+  height: 3.2rem;
   padding-right: 1vw;
  }
  
@@ -352,7 +353,7 @@ NATURSIDA
   height: 15vh;
   overflow: auto;
   font-family:var(--brod);
-  width: 36.5vw;
+  width: 35vw;
 
 }
 
