@@ -69,12 +69,11 @@ body{
   border: 0.25vh solid var(--light);
   width: 15vw;
   max-width: 255px;
-	height: 5vh;
  	background-color: var(--dark);
   border-radius: 10vh;
- 	margin-top: 1vh;
+ 	margin-top: 0.5rem;
  	display: flex;
-	align-items: center;
+	 align-items: center;
  	justify-content: center; 
 }
 
@@ -356,7 +355,6 @@ NATURSIDA
  */
  
  .collapsible {
-  padding: 15px;
   margin-bottom: 0.5vh;
   cursor: pointer;
   width: 100%;
@@ -364,9 +362,7 @@ NATURSIDA
   border: none;
   text-align: center;
   outline: none;
-  font-size: 15px;
   border-radius: 20px;
-  font-size: 7vw;
   font-family: var(--text);
 }
 
@@ -377,7 +373,7 @@ NATURSIDA
 }
  
  .form p{
-  padding: 2vw;
+  padding: 1.2rem;
   margin-bottom: 1vh;
   max-height: 11vh;
   overflow: auto;
