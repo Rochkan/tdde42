@@ -154,16 +154,16 @@ body{
 }
 
 .rubrik span img{
-   width:2rem;
-   height:2rem; 
+   width:2.5rem;
+   height:2.5rem; 
 }
 
 #dagens h1{
-	font-size: 2.5rem;
- margin: 0 2rem;
+	font-size: 3.5rem;
+  margin: 0 2rem;
 	color: var(--light);
- padding: 1rem 0;
- text-align: center;
+  padding: 1rem 0;
+  text-align: center;
 
 }
 
@@ -322,7 +322,7 @@ NATURSIDA
   text-align: center;
   padding: 1.5vh;
   font-family: var(--text);
-  font-size: 3.2rem;
+  font-size: 3.1rem;
   max-height: 99px;
   border-radius: 20px 20px 0px 0px;
   width: 35vw;

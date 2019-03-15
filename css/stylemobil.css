@@ -172,17 +172,15 @@ body{
 .rubrik span img{
   	width:2rem;
    height:2rem;
-   margin-top: 1vh; 
 }
 
 #dagens h1{
-	font-size: 2.5rem;
- margin-left: 1.5rem;
- margin-right: 1.5rem;
- margin-bottom: 0.5rem;
- text-align: center;
+	font-size: 3rem;
+	margin: 0 1rem;
+ 	padding: 0.3rem 0;
+ 	text-align: center;
 	color: var(--light);
-	align-self: center;
+  	text-align: center;
 }
 
 #dagens .txtBox {
