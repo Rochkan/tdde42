@@ -24,7 +24,7 @@ body{
 	background-color: var(--dark);
 	display: grid;
 	grid-template-columns: auto;
-	grid-template-rows: 10vh 84vh;
+	grid-template-rows: 9vh 84vh;
 	grid-gap: auto;
 	overflow: auto;
  	margin: 0 auto;
@@ -177,10 +177,9 @@ body{
 #dagens h1{
 	font-size: 3rem;
 	margin: 0 1rem;
- 	padding: 0.3rem 0;
- 	text-align: center;
+ padding: 0.3rem 0;
 	color: var(--light);
-  	text-align: center;
+ text-align: center;
 }
 
 #dagens .txtBox {
