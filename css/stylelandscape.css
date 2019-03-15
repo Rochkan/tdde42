@@ -1,5 +1,4 @@
 @media screen and (min-width: 993px) and (max-width: 1199px){
-
 :root {
   --dark:#444f4f;
   --light: #f4f4f4;
@@ -28,9 +27,10 @@ body{
   grid-gap: auto;
   overflow: auto;
   margin: 0 auto;
- padding-bottom: 30vh;
- z-index: 0;
+  padding-bottom: 30vh;
+  z-index: 0;
 }
+
 #menu{
   display: none;
 }
@@ -48,7 +48,6 @@ body{
 }
 
 #mb{
-
   border-bottom: 0.25vh solid var(--light);
   grid-row-start: 1;
   grid-row-end: 2;
@@ -65,17 +64,16 @@ body{
   padding-top: 2vh; 
  }
  
- 
 #mb .link{
   border: 0.25vh solid var(--light);
   width: 15vw;
   height: 5vh;
   background-color: var(--dark);
   border-radius: 10vh;
- margin-top: 1vh;
- display: flex;
- align-items: center;
- justify-content: center; 
+  margin-top: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
 
 .link img {
@@ -110,8 +108,8 @@ body{
   grid-template-columns: 15% 15% 15% 15% 15% 15%;
   grid-template-rows: 14% 14% 14% 10% 12% 12%;
   grid-gap:2%;
-  
 }
+
 #dagens{
   width: 100%;
   background-color: var(--light);
@@ -121,7 +119,7 @@ body{
   grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 4;
- padding-bottom: 1vh;
+  padding-bottom: 1vh;
 }
 
 .rubrik{
@@ -162,13 +160,12 @@ body{
  }
  
  #myBtn{
- background-color: var(--light);
- border: 0.25vh solid var(--dark);
+  background-color: var(--light);
+  border: 0.25vh solid var(--dark);
   border-radius: 15px; 
- font-family: var(--text);
- padding:0.5vw 1vw;
- margin-top: 1vh;
- 
+  font-family: var(--text);
+  padding:0.5vw 1vw;
+  margin-top: 1vh;
  }
 
 #random{
@@ -191,18 +188,16 @@ body{
   margin: 0 auto;
   font-size: 2em;
   text-align: center;
- color: var(--dark);
+  color: var(--dark);
 }
 
-
 #random a:link {
-   color: var(--dark);
-    text-decoration: none;
+  color: var(--dark);
+  text-decoration: none;
 }
 
  #random a:visited;{
   background-color: var(--light);
- 
  }
  
 #veckan{
@@ -239,7 +234,6 @@ body{
   font-size: 2em;
 }
 
-
 #fourdays{
   width: 28.8vw;
 }
@@ -248,20 +242,19 @@ body{
   font-size: 2em;
 }
 
-
 #footer{
- position:fixed;
- bottom:0;
- width:100vw;
- height: 5vh;
- z-index: 3;
- background-color:  var(--dark);
- border-top:0.25vh solid var(--light);
- color: var(--light);
- text-align: center;
- padding-top: 2.5vh;
- font-size: 2vh;
- font-family: var(--text);
+  position:fixed;
+  bottom:0;
+  width:100vw;
+  height: 5vh;
+  z-index: 3;
+  background-color:  var(--dark);
+  border-top:0.25vh solid var(--light);
+  color: var(--light);
+  text-align: center;
+  padding-top: 2.5vh;
+  font-size: 2vh;
+  font-family: var(--text);
 }
 
 /*
@@ -309,7 +302,7 @@ NATURSIDA
   padding: 1.5vh;
   font-family: var(--text);
   font-size: 3.2rem;
-    max-height: 99px;
+  max-height: 99px;
   border-radius: 20px 20px 0px 0px;
 }
  
@@ -347,17 +340,17 @@ NATURSIDA
  ALLMÄN KNAPP
  */
  .collapsible {
-    cursor: pointer;
-    width: 100%;
-    height: 8.3vh;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 15px;
-    border-radius: 20px;
-    font-size: 7vw;
-    font-family: var(--text);
-    margin-bottom: 1vh;
+  cursor: pointer;
+  width: 100%;
+  height: 8.3vh;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  border-radius: 20px;
+  font-size: 7vw;
+  font-family: var(--text);
+  margin-bottom: 1vh;
 }
 
 .collapsible.active {
@@ -367,12 +360,12 @@ NATURSIDA
 }
  
  .form p{
-   padding: 2vw;
- margin-bottom: 1vh;
- max-height: 11vh;
- overflow: auto;
- font-family: var(--brod);
- font-size:0.7rem;
+  padding: 2vw;
+  margin-bottom: 1vh;
+  max-height: 11vh;
+  overflow: auto;
+  font-family: var(--brod);
+  font-size:0.7rem;
  }
  
 /*
@@ -383,32 +376,29 @@ NATURSIDA
  */
  
 .natcolor {
- color: var(--natur);
- background-color: var(--light);
+  color: var(--natur);
+  background-color: var(--light);
 }
  
 .collapsible.natcolor.active {
- color: var(--light);
- background-color: var(--natur);
+  color: var(--light);
+  background-color: var(--natur);
 }
 
 .collapsible.natcolor.hover{
-    background-color: var(--light);
-    color: var(--natur);
+  background-color: var(--light);
+  color: var(--natur);
 }
-
 
 .naturfakta {
-    width: 100%;
-    display: none;
-    height: 18vh;
-    margin-bottom: 1vh;
-    background-color: var(--light);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+  width: 100%;
+  display: none;
+  height: 18vh;
+  margin-bottom: 1vh;
+  background-color: var(--light);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
-
-
 
 /*
 ÖVRIGTKNAPP
@@ -417,29 +407,29 @@ NATURSIDA
 ÖVRIGTKNAPP
 */
 .ovrcolor {
- color: var(--ovrigt);
- background-color: var(--light);
+  color: var(--ovrigt);
+  background-color: var(--light);
 }
  
 .collapsible.ovrcolor.active {
- color: var(--light);
- background-color: var(--ovrigt);
+  color: var(--light);
+  background-color: var(--ovrigt);
 }
 
 .collapsible.ovrcolor.hover{
-    background-color: var(--light);
-    color: var(--ovrigt);
+  background-color: var(--light);
+  color: var(--ovrigt);
 }
 
 
 .ovrigtfakta {
-    width: 100%;
-    display: none;
-    height: 18vh;
-    margin-bottom: 1vh;
-    background-color: var(--light);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+  width: 100%;
+  display: none;
+  height: 18vh;
+  margin-bottom: 1vh;
+  background-color: var(--light);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 /*
@@ -450,29 +440,28 @@ Ekonomiknapp
 */ 
  
 .ekocolor {
- color: var(--economy);
- background-color: var(--light);
+  color: var(--economy);
+  background-color: var(--light);
 }
  
 .collapsible.ekocolor.active {
- color: var(--light);
- background-color: var(--economy);
+  color: var(--light);
+  background-color: var(--economy);
 }
 
 .collapsible.ekocolor.hover{
-    background-color: var(--light);
-    color: var(--economy);
+  background-color: var(--light);
+  color: var(--economy);
 }
 
-
 .ekonomifakta {
-    width: 100%;
-    display: none;
-    height: 18vh;
-    margin-bottom: 1vh;
-    background-color: var(--light);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+  width: 100%;
+  display: none;
+  height: 18vh;
+  margin-bottom: 1vh;
+  background-color: var(--light);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 /*
@@ -483,29 +472,27 @@ historiaknapp
 */ 
 
  .hiscolor {
- color: var(--history);
- background-color: var(--light);
+  color: var(--history);
+  background-color: var(--light);
 }
  
 .collapsible.hiscolor.active {
- color: var(--light);
- background-color: var(--history);
+  color: var(--light);
+  background-color: var(--history);
 }
 
 .collapsible.hiscolor.hover{
-    background-color: var(--light);
-    color: var(--history);
+  background-color: var(--light);
+  color: var(--history);
 }
-
 
 .historiafakta {
-    width: 100%;
-    display: none;
-    height: 18vh;
-    margin-bottom: 1vh;
-    background-color: var(--light);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+  width: 100%;
+  display: none;
+  height: 18vh;
+  margin-bottom: 1vh;
+  background-color: var(--light);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
-
 }
