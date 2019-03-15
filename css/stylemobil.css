@@ -59,7 +59,7 @@ body{
  
 #toggleBtn{
  	width: 100%;
- 	max-width: 50px;
+ 	max-width: 30px;
 	transition: linear 0.5s;
  }
 
@@ -110,18 +110,18 @@ body{
 	text-decoration: none;
 }
 
-#logo{
+#logo img{
 	width: 12vw;
-	max-width: 90px;
+	max-width: 55px;
 	margin: 0;
-	padding-top: 3vh;
+	padding-top: 2vh;
 }
 
  #easter img{
- 	width: 12vw;
-	max-width: 90px;
-	margin: 0;
-	padding-top: 3vh;
+  width: 12vw;
+	 max-width: 65px;
+	 margin: 0;
+	 padding-top: 3vh;
  	visibility: hidden;
  }
 
@@ -150,6 +150,7 @@ body{
 	grid-template-rows: 10% 90%;
 	grid-gap:2%;
 }
+ 
 #dagens{
 	width: 100%;
 	background-color: var(--light);
@@ -162,25 +163,24 @@ body{
 }
 
 .rubrik{
- 	display:grid;
- 	grid-template-columns: 4rem auto;
  	background-color: var(--history);
  	border-top-left-radius: 15px;
  	border-top-right-radius: 15px;
  	padding-bottom:1vh;
 }
 
-.rubrik img{
+.rubrik span img{
   	width:2rem;
-  	margin: 0.5rem 0.5rem 0.5rem 1rem;
- 	grid-column-start: 1;
-	grid-column-end: 2;
+   height:2rem;
+   margin-top: 1vh; 
 }
 
 #dagens h1{
 	font-size: 2.5rem;
-	grid-column-start: 2;
-	grid-column-end: 3;
+ margin-left: 1.5rem;
+ margin-right: 1.5rem;
+ margin-bottom: 0.5rem;
+ text-align: center;
 	color: var(--light);
 	align-self: center;
 }

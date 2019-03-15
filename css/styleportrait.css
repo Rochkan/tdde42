@@ -147,32 +147,28 @@ body{
 
 .rubrik{
  	display:grid;
- 	grid-template-columns: 15vw auto;
+ 	grid-template-columns: auto;
  	background-color: var(--history);
  	border-top-left-radius: 15px;
  	border-top-right-radius: 15px;
- 	padding:0.5vh 0 1.5vh 0;
 }
 
-.rubrik img{
-  width:4.5rem;
-  padding: 0.5rem 0.5rem 0.5rem 3rem;
-  grid-column-start: 1;
-	grid-column-end: 2;
+.rubrik span img{
+   width:2rem;
+   height:2rem; 
 }
 
 #dagens h1{
-	font-size: 5rem;
-	grid-column-start: 2;
-	grid-column-end: 3;
-  margin-left: 2rem;
+	font-size: 2.5rem;
+ margin: 0 2rem;
 	color: var(--light);
-  align-self: center;
+ padding: 1rem 0;
+ text-align: center;
 
 }
 
 #dagens .txtBox {
-  max-height: 18vh;
+  max-height: 24vh;
   overflow: auto;
   margin:1vh 2vw 0 2vw;
   font-family:var(--brod);
