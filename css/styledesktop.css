@@ -52,16 +52,18 @@ body{
   grid-row-end: 2;
   width: 100%;
   background-color: var(--dark);
+  display: flex;
 }
 
  #menubar{
+  height: 100%;
   width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1200px;
-  padding-top: 2vh; 
+  align-items: center;
  }
  
  
@@ -69,6 +71,7 @@ body{
   border: 0.25vh solid var(--light);
   width: 15vw;
   max-width: 255px;
+  height: 3.5rem;
  	background-color: var(--dark);
   border-radius: 10vh;
  	margin-top: 0.5rem;
