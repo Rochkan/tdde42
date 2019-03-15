@@ -1,6 +1,5 @@
 @media screen and (min-width: 1200px){
 
-
 :root {
   --dark:#444f4f;
   --light: #f4f4f4;
@@ -9,6 +8,7 @@
   --history: #2f879e;
   --economy: #c39423;
   --text: Oswald;
+  --brod: sans-serif;
 }
 
 body{
@@ -27,8 +27,8 @@ body{
   grid-gap: 0;
   overflow: auto;
   margin: 0 auto;
- padding-bottom: 30vh;
- z-index: 0;
+  padding-bottom: 30vh;
+  z-index: 0;
 }
 #menu{
   display: none;
@@ -52,7 +52,6 @@ body{
   grid-row-end: 2;
   width: 100%;
   background-color: var(--dark);
-
 }
 
  #menubar{
@@ -67,11 +66,12 @@ body{
  
  
 #mb .link{
-  	border: 0.25vh solid var(--light);
-  	width: 15vw;
-  	height: 5vh;
+  border: 0.25vh solid var(--light);
+  width: 15vw;
+  max-width: 255px;
+	height: 5vh;
  	background-color: var(--dark);
-  	border-radius: 10vh;
+  border-radius: 10vh;
  	margin-top: 1vh;
  	display: flex;
 	align-items: center;
@@ -109,7 +109,6 @@ body{
   grid-template-columns: 15% 15% 15% 15% 15% 15%;
   grid-template-rows: 14% 14% 14% 10% 14% 14%;
   grid-gap:2%;
-  
 }
  
 #dagens{
@@ -121,7 +120,7 @@ body{
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 4;
- padding-bottom: 1vh;
+  padding-bottom: 1vh;
 }
 
 .rubrik{
@@ -135,14 +134,14 @@ body{
  }
 
 .rubrik img{
-  width:6.5rem;
-  margin: 1rem 1rem 1rem 2rem;
+  width:4.5rem;
+  margin: 0.5rem 0.5rem 0.5rem 3rem;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
 #dagens h1{
-  font-size: 6.5rem;
+  font-size: 5rem;
   grid-column-start: 2;
   grid-column-end: 3;
   color: var(--light);
@@ -150,11 +149,11 @@ body{
 }
 
 #dagens .txtBox {
- max-height: 24vh;
- overflow: auto;
- margin:1vh 2vw 0 2vw;
- font-family:var(--brod);
- font-size: 1rem;
+  max-height: 24vh;
+  overflow: auto;
+  margin:1vh 2vw 0 2vw;
+  font-family: var(--brod);
+  font-size: 1rem;
 }
 
  #more{
@@ -162,13 +161,12 @@ body{
  }
  
  #myBtn{
- background-color: var(--light);
- border: 0.25vh solid var(--dark);
+  background-color: var(--light);
+  border: 0.25vh solid var(--dark);
   border-radius: 15px; 
- font-family: var(--text);
- padding:0.5vw 1vw;
- margin-top: 1vh;
- 
+  font-family: var(--text);
+  padding:0.5vw 1vw;
+  margin-top: 1vh;
  }
 
 #random{
@@ -191,18 +189,17 @@ body{
   margin: 0 auto;
   font-size: 2em;
   text-align: center;
- color: var(--dark);
+  color: var(--dark);
 }
 
 
 #random a:link {
-   color: var(--dark);
-    text-decoration: none;
+  color: var(--dark);
+  text-decoration: none;
 }
 
  #random a:visited;{
   background-color: var(--light);
- 
  }
  
 #veckan{
@@ -253,7 +250,6 @@ body{
   font-size: 2em;
 }
 
-
 #fourdays{
   width: 100%;
 }
@@ -261,7 +257,6 @@ body{
 #fourdays button{
   font-size: 2em;
 }
-
 
 #footer{
  position:fixed;
@@ -336,6 +331,7 @@ NATURSIDA
   height: 17vh;
   max-height: 240px;
   overflow: auto;
+  font-family: var(--brod);
 }
 
 #doldfakta{
@@ -347,7 +343,7 @@ NATURSIDA
   grid-row-start: 2;
   display: flex;
   flex-wrap: wrap;
- align-items: flex-start;
+  align-items: flex-start;
 }
  
  span img{
@@ -364,33 +360,33 @@ NATURSIDA
  */
  
  .collapsible {
-    padding: 15px;
+  padding: 15px;
   margin-bottom: 0.5vh;
-    cursor: pointer;
-    width: 100%;
-    height: 8.3vh;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 15px;
-    border-radius: 20px;
-    font-size: 7vw;
-    font-family: var(--text);
+  cursor: pointer;
+  width: 100%;
+  height: 8.3vh;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  border-radius: 20px;
+  font-size: 7vw;
+  font-family: var(--text);
 }
 
 .collapsible.active {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px; 
- margin-bottom: 0;
+  margin-bottom: 0;
 }
  
  .form p{
-   padding: 2vw;
- margin-bottom: 1vh;
- max-height: 11vh;
- overflow: auto;
- font-family: var(--brod);
- font-size:1rem;
+  padding: 2vw;
+  margin-bottom: 1vh;
+  max-height: 11vh;
+  overflow: auto;
+  font-family: var(--brod);
+  font-size:1rem;
  }
  
 /*
@@ -401,30 +397,28 @@ NATURSIDA
 */
  
 .natcolor {
- color: var(--natur);
- background-color: var(--light);
+  color: var(--natur);
+  background-color: var(--light);
 }
  
 .collapsible.natcolor.active {
- color: var(--light);
- background-color: var(--natur);
+  color: var(--light);
+  background-color: var(--natur);
 }
 
 .collapsible.natcolor.hover{
-    background-color: var(--light);
-    color: var(--natur);
+  background-color: var(--light);
+  color: var(--natur);
 }
 
-
-
 .naturfakta {
-    width: 100%;
-    display: none;
-    height: 18vh;
-    margin-bottom: 1vh;
-    background-color: var(--light);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+  width: 100%;
+  display: none;
+  height: 18vh;
+  margin-bottom: 1vh;
+  background-color: var(--light);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 /*
@@ -444,19 +438,18 @@ NATURSIDA
 }
 
 .collapsible.ovrcolor.hover{
-    background-color: var(--light);
-    color: var(--ovrigt);
+  background-color: var(--light);
+  color: var(--ovrigt);
 }
 
-
 .ovrigtfakta {
-    width: 100%;
-    display: none;
-    height: 18vh;
-    margin-bottom: 1vh;
-    background-color: var(--light);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+  width: 100%;
+  display: none;
+  height: 18vh;
+  margin-bottom: 1vh;
+  background-color: var(--light);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 /*
@@ -467,29 +460,28 @@ Ekonomiknapp
 */ 
  
 .ekocolor {
- color: var(--economy);
- background-color: var(--light);
+  color: var(--economy);
+  background-color: var(--light);
 }
  
 .collapsible.ekocolor.active {
- color: var(--light);
- background-color: var(--economy);
+  color: var(--light);
+  background-color: var(--economy);
 }
 
 .collapsible.ekocolor.hover{
-    background-color: var(--light);
-    color: var(--economy);
+  background-color: var(--light);
+  color: var(--economy);
 }
 
-
 .ekonomifakta {
-    width: 100%;
-    display: none;
-    height: 18vh;
-    margin-bottom: 1vh;
-    background-color: var(--light);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+  width: 100%;
+  display: none;
+  height: 18vh;
+  margin-bottom: 1vh;
+  background-color: var(--light);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 /*
@@ -500,29 +492,28 @@ historiaknapp
 */ 
 
  .hiscolor {
- color: var(--history);
- background-color: var(--light);
+  color: var(--history);
+  background-color: var(--light);
 }
  
 .collapsible.hiscolor.active {
- color: var(--light);
- background-color: var(--history);
+  color: var(--light);
+  background-color: var(--history);
 }
 
 .collapsible.hiscolor.hover{
-    background-color: var(--light);
-    color: var(--history);
+  background-color: var(--light);
+  color: var(--history);
 }
 
-
 .historiafakta {
-    width: 100%;
-    display: none;
-    height: 18vh;
-    margin-bottom: 1vh;
-    background-color: var(--light);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+  width: 100%;
+  display: none;
+  height: 18vh;
+  margin-bottom: 1vh;
+  background-color: var(--light);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 }

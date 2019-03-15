@@ -7,8 +7,8 @@
 	--history: #2f879e;
 	--ekonomy: #c39423;
 	--random: #e0b8b8;
- --text: Oswald;
- --brod: sans-serif;
+ 	--text: Oswald;
+ 	--brod: sans-serif;
 }
 
 body{
@@ -169,7 +169,7 @@ body{
 
 .rubrik{
  	display:grid;
- 	grid-template-columns: 17vw auto;
+ 	grid-template-columns: 4rem auto;
  	background-color: var(--history);
  	border-top-left-radius: 15px;
  	border-top-right-radius: 15px;
@@ -177,17 +177,18 @@ body{
 }
 
 .rubrik img{
- 	width:11vw;
- 	margin: 1vh 1vw 1vh 2vw;
+  	width:2rem;
+  	margin: 0.5rem 0.5rem 0.5rem 1rem;
  	grid-column-start: 1;
 	grid-column-end: 2;
 }
 
 #dagens h1{
-	font-size: 13vw;
+	font-size: 2.5rem;
 	grid-column-start: 2;
 	grid-column-end: 3;
 	color: var(--light);
+	align-self: center;
 }
 
 #dagens .txtBox {

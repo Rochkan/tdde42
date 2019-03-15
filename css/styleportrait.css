@@ -162,18 +162,20 @@ body{
 }
 
 .rubrik img{
- width:11vw;
- padding: 1vh 1vw 1.5vh 2vw;
- grid-column-start: 1;
+  width:4.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 3rem;
+  grid-column-start: 1;
 	grid-column-end: 2;
 }
 
 #dagens h1{
-	font-size: 9vh;
+	font-size: 5rem;
 	grid-column-start: 2;
 	grid-column-end: 3;
+  margin-left: 2rem;
 	color: var(--light);
- margin-bottom: 1vh;
+  align-self: center;
+
 }
 
 #dagens .txtBox {
