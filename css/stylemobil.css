@@ -14,7 +14,6 @@
 body{
 	height: 100vh;
  	min-width: 300px;
- 
 }
 
 #wrapper{
@@ -29,7 +28,6 @@ body{
 	grid-gap: auto;
 	overflow: auto;
  	margin: 0 auto;
-
 }
  
 #mb{
@@ -41,23 +39,21 @@ body{
  }
  
  #menubar{
-  display: none;
+ 	display: none;
  } 
  
 #menu{
-
 	width: 90%;
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- align-content: center;
- margin: 0 auto;
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-between;
+ 	align-content: center;
+ 	margin: 0 auto;
 }
 
  #buttonpanel{
-  width: 9vw;
-  padding-right: 5vw;
-  padding-top: 2vh;
+ 	width: 9vw;
+  	padding-top: 2vh;
  }
 
  
@@ -71,26 +67,24 @@ body{
 	display: none;
 	width: 100vw;
 	height: 30vh;
- margin-top: 1vh;
+ 	margin-top: 1vh;
 	max-width: 767px;
 	background-color: var(--dark);
 	border-bottom: 0.25vh solid var(--light);
-
 }
 
 #buttoncenter{
-	
 	background-color: var(--dark);
 	border-bottom: 0.25vh solid var(--light);
 	width: 100%;
- position: fixed;
- left:0;
+ 	position: fixed;
+ 	left:0;
 	height: 30vh;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;	
- align-content: space-around;
- z-index: 4;
+ 	align-content: space-around;
+ 	z-index: 4;
 }
 
 .link{
@@ -100,13 +94,13 @@ body{
 	background-color: var(--dark);
 	border-radius: 10vh;
 	display: flex;
- align-items: center;
- justify-content: center;	
+ 	align-items: center;
+ 	justify-content: center;	
 }
 
 .link img {
 	width: 7vw;
- margin-right: 1.5vw;
+ 	margin-right: 1.5vw;
 }
 
 .link a{
@@ -118,7 +112,7 @@ body{
 
 #logo{
 	width: 12vw;
-	max-width: 90px; /* ska den vara större?*/
+	max-width: 90px;
 	margin: 0;
 	padding-top: 3vh;
 }
@@ -192,59 +186,59 @@ body{
 }
 
 #dagens .txtBox {
- max-height: 34.5vh;
- font-size: 0.75rem;
- overflow: auto;
- margin:1vh 2vw 0 2vw;
- font-family:var(--brod);
+ 	max-height: 34.5vh;
+ 	font-size: 0.75rem;
+ 	overflow: auto;
+ 	margin:1vh 2vw 0 2vw;
+ 	font-family:var(--brod);
 }
 
   #more{
-  display: none;
+  	display: none;
  }
  
  #myBtn{
- background-color: var(--light);
- border: 0.15vh solid var(--dark);
+ 	background-color: var(--light);
+ 	border: 0.15vh solid var(--dark);
 	border-radius: 10px; 
- font-family: var(--text);
- font-size: 0.6em;
- padding:0.5vw 2vw;
- margin-top: 1vh;
+ 	font-family: var(--text);
+ 	font-size: 0.6em;
+ 	padding:0.5vw 2vw;
+ 	margin-top: 1vh;
  
  }
  
  #random{
-  height: 100%;
-  background-color: var(--light);
-  color: var(--dark);
-  border-radius: 20px;
-  font-family: var(--text);
-  text-align: center;
-  grid-column-start: 2;
-  grid-column-end: 6;
-  grid-row-start: 5;
-  grid-row-end: 6;
-  display: flex;
-  align-items: center;
+  	height: 100%;
+  	background-color: var(--light);
+  	color: var(--dark);
+  	border-radius: 20px;
+  	font-family: var(--text);
+  	text-align: center;
+  	grid-column-start: 2;
+  	grid-column-end: 6;
+  	grid-row-start: 5;
+  	grid-row-end: 6;
+  	display: flex;
+  	align-items: center;
 }
 
 
 #random a{
-  margin: 0 auto;
-  font-size: 1.5rem;
-  text-align: center;
- color: var(--dark);
+  	margin: 0 auto;
+  	font-size: 1.5rem;
+  	text-align: center;
+ 	color: var(--dark);
 }
 
 
 #random a:link {
-   color: var(--dark);
+	color: var(--dark);
     text-decoration: none;
 }
 
  #random a:visited;{
-  background-color: var(--light);
+  	background-color: var(--light);
  }
 
 #veckan{
@@ -252,18 +246,18 @@ body{
 }
 
 #footer{
- position:fixed;
- bottom:0;
- width:100vw;
- height: 5vh;
- z-index: 3;
- background-color:  var(--dark);
- border-top:0.25vh solid var(--light);
- color: var(--light);
- text-align: center;
- padding-top: 2.5vh;
- font-size: 2vh;
- font-family: var(--text);
+ 	position:fixed;
+ 	bottom:0;
+ 	width:100vw;
+ 	height: 5vh;
+ 	z-index: 3;
+ 	background-color:  var(--dark);
+ 	border-top:0.25vh solid var(--light);
+ 	color: var(--light);
+ 	text-align: center;
+ 	padding-top: 2.5vh;
+ 	font-size: 2vh;
+ 	font-family: var(--text);
 }
 
 /*
@@ -274,16 +268,16 @@ NATURSIDA
 NATURSIDA
 */
 #containernatur{
-  width: 90%;
-  height: 100%;
-  padding-top: 2%;
-  margin: 0 auto;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 10% 90%;
-  grid-gap:2%;
+ 	width: 90%;
+  	height: 100%;
+  	padding-top: 2%;
+  	margin: 0 auto;
+  	grid-row-start: 2;
+  	grid-row-end: 3;
+  	display: grid;
+  	grid-template-columns: 100%;
+  	grid-template-rows: 10% 90%;
+  	grid-gap:2%;
 }
 
 #plusminus{
@@ -293,7 +287,7 @@ NATURSIDA
 }
 
 #plusminus img{
-  width: 35%;
+  	width: 35%;
 }
 
 .fakta{
@@ -313,18 +307,17 @@ NATURSIDA
 }
  
  span img{
-  height: 3.2rem;
-  padding-right: 1vw;
+  	height: 3.2rem;
+  	padding-right: 1vw;
  }
 
 .fakta p{
 	border-radius: 0px 0px 20px 20px;
-  background-color: var(--light);
-  padding: 1.5vh;
-  height: 20vh;
-  overflow: auto;
-font-family:var(--brod);
-
+  	background-color: var(--light);
+  	padding: 1.5vh;
+  	height: 20vh;
+  	overflow: auto;
+	font-family:var(--brod);
 }
 
 #doldfakta{
@@ -357,9 +350,9 @@ font-family:var(--brod);
 }
 
 .collapsible.active {
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px; 
-  margin-bottom: 0;
+  	border-bottom-right-radius: 0px;
+  	border-bottom-left-radius: 0px; 
+  	margin-bottom: 0;
 }
  /*
  naturknapp
@@ -368,22 +361,22 @@ font-family:var(--brod);
  naturknapp
  */
  .form p{
-   padding: 2vw;
- margin-bottom: 1vh;
- max-height: 11vh;
- overflow: auto;
- font-family: var(--brod);
- font-size:0.7rem;
+   	padding: 2vw;
+ 	margin-bottom: 1vh;
+ 	max-height: 11vh;
+ 	overflow: auto;
+ 	font-family: var(--brod);
+ 	font-size:0.7rem;
  }
 
 .natcolor {
- color: var(--natur);
- background-color: var(--light);
+ 	color: var(--natur);
+ 	background-color: var(--light);
 }
  
 .collapsible.natcolor.active {
- color: var(--light);
- background-color: var(--natur);
+ 	color: var(--light);
+ 	background-color: var(--natur);
 }
 
 .collapsible.natcolor.hover{
